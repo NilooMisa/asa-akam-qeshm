@@ -1,4 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Roboto, PT Sans;
+    font-weight: 300;
+}
 h1 {
     font-family: Roboto;
+    color:slategray;
+}
+ul > li {
+    font-family: PT Sans;
+    list-style-type: none;
+    margin-right: 15px;
+    
+}
+ul li a {
+ text-decoration: none;
+ color:slategray;
 }
