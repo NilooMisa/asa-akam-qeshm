@@ -5,20 +5,30 @@
     border: none;
 }
 body {
-    font-family: Roboto, PT Sans;
-    font-weight: 300;
+    font-family: Roboto, PT Sans, sans-serif;
+    font-weight: 200;
 }
-h1 {
-    font-family: Roboto;
-    color:slategray;
+/* heading and logo */
+h1, h2{
+    font-family: Roboto, sans-serif;
+    color:#2C2A31;
+    text-transform: uppercase;
+}
+#logo-img{
+    float:left;
+}
+#logo{
+    margin-top: 5px;
+    
+    font-size: 200%;
 }
 ul > li {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     list-style-type: none;
     margin-right: 15px;
     
 }
 ul li a {
  text-decoration: none;
- color:slategray;
+ color:#61455A;
 }
