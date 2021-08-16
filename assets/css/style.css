@@ -8,27 +8,41 @@ body {
     font-family: Roboto, PT Sans, sans-serif;
     font-weight: 200;
 }
-/* heading and logo */
+/* headings and logo */
 h1, h2{
     font-family: Roboto, sans-serif;
     color:#2C2A31;
     text-transform: uppercase;
 }
 #logo-img{
+    width: 5%;
     float:left;
+    padding: 0;
+    line-height:12px ;
 }
 #logo{
-    margin-top: 5px;
-    
-    font-size: 200%;
+     font-size: 180%;
+     margin-left: 12px;
+     margin-top: 12px;
+
 }
-ul > li {
+#menu{
+    height:50px;
+    width:100%;
+    text-align: center;
+    margin-right:25px;
+}
+#menu li {
     font-family: PT Sans, sans-serif;
     list-style-type: none;
-    margin-right: 15px;
+    margin-right: 30px;
+    line-height:50px;
+    font-size: 100%;
+    display: inline;
+    color:#61455A;
+    
     
 }
-ul li a {
- text-decoration: none;
- color:#61455A;
+#menu li a{
+    text-decoration: none;
 }
