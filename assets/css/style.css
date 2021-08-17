@@ -106,3 +106,8 @@ footer div {
     clear: both;
     width: 100%;
 }
+footer div p{
+    color: #FDB866;
+    padding-left: 50px;
+    padding-top: 10px;
+}
