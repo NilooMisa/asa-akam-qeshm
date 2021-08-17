@@ -85,15 +85,21 @@ footer{
 }
 footer h2, footer li{
     color:#F5F5F5;
+    letter-spacing: 2px;
 }
 
 #first-office {
     float: left;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 20px;
 }
 #second-office{
     float: left;
-    margin-left:70px;
+    margin-left:50px;
     margin-top: 20px;   
+}
+
+footer div {
+    clear: both;
+    width: 100%;
 }
