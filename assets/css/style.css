@@ -14,25 +14,28 @@ h1,h2{
     color:#505050;
     letter-spacing: 2px;
 }
-#logo-img{
+.logo-img{
     width: 4%;
     float:left;
     margin-top: 18px;
     margin-left: 10px;
     
 }
-#logo{
+.logo{
      font-size: 230%;
      margin-top: 10px;
 }
 /* navigation bar */
-#menu{
+.menu{
     height:50px;
     width:100%;
     text-align: center;
     margin-right:25px;
 }
-#menu li {
+.menu li a{
+    text-decoration: none;
+}
+.menu li {
     font-family: Style Script, cursive;
     list-style-type: none;
     margin-right: 30px;
@@ -41,19 +44,16 @@ h1,h2{
     display: inline;
     color:#505050;   
 }
-#menu li a{
-    text-decoration: none;
-}
-#menu li a:hover{
+
+.menu li a:hover{
     cursor: pointer;
-    text-decoration: underline;
 }
-#menu li a:visited{
+.menu li a:visited{
     color: #505050;
 }
-#menu li a:focus{
+/* .menu li a:focus{
     color:#DD846E;
-}
+} */
 /* hero image */
 #hero-image {
     width:100%;
