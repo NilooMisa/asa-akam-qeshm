@@ -37,12 +37,18 @@ h1,h2{
     list-style-type: none;
     margin-right: 30px;
     line-height:50px;
-    font-size: 140%;
+    font-size: 145%;
     display: inline;
     color:#505050;   
 }
 #menu li a{
     text-decoration: none;
+}
+#menu li a:hover{
+    cursor: pointer;
+}
+#menu li a:visited{
+    color: #A3606F;
 }
 /* hero image */
 #hero-image {
@@ -54,15 +60,18 @@ h1,h2{
     background-attachment: scroll;
     background-position: top center;
     background-repeat: no-repeat;
+    
 }
 #hero-image div{
     width:100%;
-    height:inherit;
+    height:300px;
+    
 }
 #hero-image div p{
     color: #F5F5F5;
     text-align: center;
-    line-height: 500px;
+    box-sizing: border-box;
     font-size: 170%;
     font-family: Style Script, cursive;
+    padding-top: 230px;
 }
