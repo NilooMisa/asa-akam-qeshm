@@ -19,6 +19,7 @@ h1,h2{
     float:left;
     margin-top: 18px;
     margin-left: 10px;
+    
 }
 #logo{
      font-size: 230%;
@@ -45,6 +46,7 @@ h1,h2{
 }
 #menu li a:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 #menu li a:visited{
     color: #505050;
@@ -62,6 +64,7 @@ h1,h2{
     background-attachment: scroll;
     background-position: top center;
     background-repeat: no-repeat;
+   
     
 }
 #hero-image div{
@@ -74,7 +77,7 @@ h1,h2{
     text-align: center;
     font-size: 170%;
     font-family: Style Script, cursive;
-    padding-top: 230px;
+    padding-top: 200px;
 }
 
 /*  footer  */
