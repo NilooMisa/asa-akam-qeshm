@@ -6,23 +6,24 @@
 }
 body {
     font-family: Style Script, Lato, sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 /* headings and logo */
-h1, h2{
+h1,h2{
     font-family: Style Script, cursive;
-    color:#404040;
+    color:#505050;
+    letter-spacing: 2px;
 }
 #logo-img{
-    width: 4%;
+    width: 3%;
     float:left;
-    line-height:12px ;
+    margin-top: 18px;
+    margin-left: 10px;
 }
 #logo{
-     font-size: 150%;
-     margin-left: 12px;
-     margin-top: 12px;
-
+     font-size: 210%;
+     margin-top: 10px;
+     /* margin-left: 60px; */
 }
 /* navigation bar */
 #menu{
@@ -32,11 +33,11 @@ h1, h2{
     margin-right:25px;
 }
 #menu li {
-    font-family: Lato, sans-serif;
+    font-family: Style Script, cursive;
     list-style-type: none;
     margin-right: 30px;
     line-height:50px;
-    font-size: 100%;
+    font-size: 140%;
     display: inline;
     color:#505050;   
 }
@@ -47,6 +48,7 @@ h1, h2{
 #hero-image {
     width:100%;
     height:500px;
+    background-color:#DD846E;
     background-image:url('../images/hero-img.jpg');
     background-size: cover;
     background-attachment: scroll;
@@ -55,18 +57,12 @@ h1, h2{
 }
 #hero-image div{
     width:100%;
-    height:200%;
-}
-div #second-header{
-    color: snow;
-    text-align: center;
-    padding-bottom:0;
-    
+    height:inherit;
 }
 #hero-image div p{
     color: #F5F5F5;
     text-align: center;
-    margin-top:250px;
-    font-size: 150%;
+    line-height: 500px;
+    font-size: 170%;
     font-family: Style Script, cursive;
 }
