@@ -96,12 +96,7 @@ footer h2, footer li{
     letter-spacing: 2px;
 }
 
-#first-office {
-    float: left;
-    margin-left: 50px;
-    margin-top: 20px;
-}
-#second-office{
+.office-address{
     float: left;
     margin-left:50px;
     margin-top: 20px;   
