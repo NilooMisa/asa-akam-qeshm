@@ -110,7 +110,9 @@ footer h2, footer li{
     margin-left:50px;
     margin-top: 20px;   
 }
-
+/* .fa-envelope-square{
+    size: 5px;
+} */
 footer div {
     clear: both;
     width: 100%;
@@ -122,6 +124,7 @@ footer div p{
     /* font-family: Lato, sans-serif; */
     padding-bottom: 10px;
 }
+
 /* about-us section */
 
 #about-us #company-details{
