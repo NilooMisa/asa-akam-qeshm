@@ -67,7 +67,7 @@ h1,h2{
     background-image: url('../images/lucas-benjamin-GAM-7l4QzmI-unsplash\ \(1\).jpg');
     /* opacity: 0.9; */
     width:100%;
-    height:500px;
+    height:auto;
     background-color:#ec4a0f;
     background-size: cover;
     background-attachment: scroll;
@@ -77,6 +77,7 @@ h1,h2{
 #hero-image div{
     width:100%;
     height:500px;
+
     
 }
 #hero-image div p{
@@ -87,13 +88,12 @@ h1,h2{
     padding-top: 205px;
     font-weight:200 ;
     letter-spacing: 2px;
-    
 }
 /*  footer  */
 footer{
     background-color:#505050;
     width: 100%;
-    height: 170px;
+    height: auto;
 }
 footer ul{
     list-style-type:none ;
@@ -125,6 +125,7 @@ footer div p{
 
 #about-us #company-details{
     width:60%;
+    height:auto;
     margin-top: 50px;
     margin-left:30px;
     float: left;
@@ -151,6 +152,7 @@ footer div p{
     margin-left: 10px;
     margin-top: 130px;
 }
+
 
 
 
