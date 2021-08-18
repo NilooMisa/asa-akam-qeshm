@@ -86,6 +86,7 @@ h1,h2{
     padding-top: 205px;
     font-weight:200 ;
     letter-spacing: 2px;
+    
 }
 
 /*  footer  */
@@ -138,12 +139,16 @@ footer div p{
     text-align: center;
     font-family: Lato, sans-serif;
     color: #ffffff;
+   
 }
 #about-us img{
     position: relative;
     width:35%;
     margin-left: 10px;
     margin-top: 70px;
+}
+p ~ h2{
+    margin-top: 25px;
 }
 
 
