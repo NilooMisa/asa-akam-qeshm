@@ -59,10 +59,12 @@ h1,h2{
     color:#DD846E;
 }
 /* section for home and about us*/
-#hero-image {
+/* #hero-image {
     background-image:url('../images/hero-img.jpg');
-}
+} */
 .background-rules {
+    background-image: url('../images/colorsplash.jpeg');
+    opacity: 0.7;
     width:100%;
     height:auto;
     background-color:#DD846E;
@@ -116,12 +118,10 @@ footer div p{
     font-family: Lato, sans-serif;
 }
 /* about-us section */
-#about-us{
+/* #about-us{
     background-image: url('../images/colorsplash.jpeg');
-    
-    height:auto;
-
-}
+    opacity: 0.7;
+} */
 #about-us div{
     width:60%;
     margin-top: 70px;
@@ -130,10 +130,11 @@ footer div p{
 }
 #about-us div h2{
     text-align: center;
+    color:#505050f8;
 }
 #about-us div p{
-    font-size: 135%;
-    letter-spacing: 2px;
+    font-size: 110%;
+    letter-spacing: 1px;
     text-align: center;
     font-family: Lato, sans-serif;
     color: #ffffff;
