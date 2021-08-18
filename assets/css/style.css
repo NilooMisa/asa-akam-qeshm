@@ -58,18 +58,18 @@ h1,h2{
 .menu li a:focus{
     color:#DD846E;
 }
-/* hero image */
+/* section for home and about us*/
 #hero-image {
+    background-image:url('../images/hero-img.jpg');
+}
+.background-rules {
     width:100%;
     height:auto;
     background-color:#DD846E;
-    background-image:url('../images/hero-img.jpg');
     background-size: cover;
     background-attachment: scroll;
     background-position: top center;
     background-repeat: no-repeat;
-
-    
 }
 #hero-image div{
     width:100%;
