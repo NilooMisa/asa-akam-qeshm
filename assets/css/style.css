@@ -63,8 +63,8 @@ h1,h2{
     background-image:url('../images/hero-img.jpg');
 } */
 .background-rules {
-    background-image: url('../images/colorsplash.jpeg');
-    opacity: 0.7;
+    background-image: url('../images/lucas-benjamin-GAM-7l4QzmI-unsplash\ \(1\).jpg');
+    opacity: 0.9;
     width:100%;
     height:auto;
     background-color:#DD846E;
@@ -119,10 +119,7 @@ footer div p{
     font-family: Lato, sans-serif;
 }
 /* about-us section */
-/* #about-us{
-    background-image: url('../images/colorsplash.jpeg');
-    opacity: 0.7;
-} */
+
 #about-us div{
     width:60%;
     margin-top: 70px;
@@ -131,7 +128,7 @@ footer div p{
 }
 #about-us div h2{
     text-align: center;
-    color:#505050f8;
+    color:#505050;
 }
 #about-us div p{
     font-size: 110%;
