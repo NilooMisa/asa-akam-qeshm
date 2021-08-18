@@ -37,9 +37,7 @@ h1,h2{
     text-align: center;
     margin-right:25px;
 }
-.menu li a{
-    text-decoration: none;
-}
+
 .menu li {
     font-family: Style Script, cursive;
     list-style-type: none;
@@ -57,6 +55,9 @@ h1,h2{
 }
 .menu li a:focus{
     color:#ec4a0f;
+}
+.menu li a{
+    text-decoration: none;
 }
 /* section for home and about us*/
 /* #hero-image {
@@ -88,7 +89,6 @@ h1,h2{
     letter-spacing: 2px;
     
 }
-
 /*  footer  */
 footer{
     background-color:#505050;
