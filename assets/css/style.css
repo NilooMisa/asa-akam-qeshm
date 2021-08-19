@@ -60,12 +60,8 @@ h1, h2, th{
     text-decoration: none;
 }
 /* section for home and about us*/
-/* #hero-image {
-    background-image:url('../images/hero-img.jpg');
-} */
 .background-rules {
     background-image: url('../images/lucas-benjamin-GAM-7l4QzmI-unsplash\ \(1\).jpg');
-    /* opacity: 0.9; */
     width:100%;
     height:550px;
     background-color:#ec4a0f;
@@ -74,15 +70,8 @@ h1, h2, th{
     background-position: top center;
     background-repeat: no-repeat;
 }
-/* .container{
-    width:75%;
-    height:200px;
-    position: relative;
-    border: 1px solid #ffffff;
-} */
 #hero-image{
     width:100%;
-    /* height:200px; */
     position: relative;
     border: 1px solid #ffffff;
 }
@@ -169,19 +158,29 @@ footer div p{
     margin-top: 130px;
 }
 /* tables for products */
-table{
-    border: 2px solid #ffffff;
-    width: 85%;
-    font-size: 150%;
+.first-table{
+    padding-top: 20px;
+}
+.second-table{
     margin-top: 50px;
 }
+.product-table{
+    width: 100%;
+}
 th {
-    background-color:#ffffff ;
-    color:#ec4a0f ;
+    font-size: 150%;
+    text-align: left;
+
 }
 td{
     color: #ffffff;
     font-family: Lato, sans-serif;
+    font-size: 120%;
+    font-weight: 100;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    text-align: center;
+    
 }
 
 
