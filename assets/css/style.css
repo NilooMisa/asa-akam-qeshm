@@ -160,7 +160,7 @@ footer div p{
 /* tables for products */
 .table-container{
     width:100%;
-    height:60%;
+    height:55%;
 
 }
 /* .first-table{
@@ -197,9 +197,20 @@ td{
     font-size: 100%;
     padding-top: 10px;
 }
+/* figures for company logos */
 
+.logo-container {
+    width:100%;
+    height:45%;
+    
+}
+.logo-container figure{
+    width:20%;
+    text-align: center;
+    float: left;
 
-
+    
+}
 
 
 
