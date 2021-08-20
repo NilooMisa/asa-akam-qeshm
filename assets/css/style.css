@@ -47,6 +47,7 @@ h1, h2, th, p{
     margin-right: 30px;
     font-size: 150%;
     display: inline;  
+    line-height: 75px;
 }
 
 .menu li a:hover{
@@ -106,7 +107,7 @@ footer ul{
     list-style-type:none ;
 }
 footer h2, footer li{
-    font-family: Style Script, cursive;
+    /* font-family: Style Script, cursive; */
     color:#F5F5F5;
     letter-spacing: 2px;
     font-weight: 300;
