@@ -67,14 +67,14 @@ h1, h2, th{
 /* section for home and about us*/
 
 .background-rules {
-    background-image: url('../images/lucas-benjamin-GAM-7l4QzmI-unsplash\ \(1\).jpg');
+    background: url('../images/lucas-benjamin-GAM-7l4QzmI-unsplash\ \(1\).jpg') no-repeat center center;
     width:100%;
     height:600px;
     background-color:#ec4a0f;
     background-size: cover;
     background-attachment: scroll;
-    background-position: top center;
-    background-repeat: no-repeat;
+    /* background-position: top center;
+    background-repeat: no-repeat; */
 }
 #hero-image{
     position: relative;
@@ -231,8 +231,14 @@ td{
     border:thin solid #505050;
     /* background-color: #ffffff; */
 }
+.form-label{
+    font-size: 150%;
+    font-weight: 100;
+    color:#3a3a3a;
+    padding-left: 20px;
+}
 input[type=text]{
-    background-color: ;
+    
 }
 input[type=email]{
     
