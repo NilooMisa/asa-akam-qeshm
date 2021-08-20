@@ -43,23 +43,29 @@ h1, h2, th{
     list-style-type: none;
     margin-right: 30px;
     font-size: 150%;
-    display: inline;
-    color:#505050;   
+    display: inline;  
 }
 
 .menu li a:hover{
     cursor: pointer;
 }
-.menu li a:visited{
+/* .menu li a:visited{
     color: #505050;
 }
 .menu li a:focus{
     color:#ec4a0f;
-}
+} */
 .menu li a{
     text-decoration: none;
+    color:#505050;
 }
+
+.active{
+   border-bottom: 1px solid #ec4a0f;
+}
+
 /* section for home and about us*/
+
 .background-rules {
     background-image: url('../images/lucas-benjamin-GAM-7l4QzmI-unsplash\ \(1\).jpg');
     width:100%;
@@ -225,4 +231,12 @@ td{
     border:thin solid #505050;
     /* background-color: #ffffff; */
 }
-
+input[type=text]{
+    background-color: ;
+}
+input[type=email]{
+    
+}
+input[type=submit]{
+    
+}
