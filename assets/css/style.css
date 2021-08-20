@@ -207,7 +207,7 @@ td{
 }
 .logo-container figure a{
     text-decoration: none;
-    color: #F5F5F5;
+    color: #ffffff;
 }
 /* form */
 .form-center{
@@ -222,5 +222,7 @@ td{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    border:thin solid #505050;
+    /* background-color: #ffffff; */
 }
 
