@@ -71,9 +71,7 @@ h1, h2, th{
     background-repeat: no-repeat;
 }
 #hero-image{
-    width:100%;
     position: relative;
-    border: 1px solid #ffffff;
 }
 .paragraph-center{
     margin: 0;
@@ -211,5 +209,18 @@ td{
     text-decoration: none;
     color: #F5F5F5;
 }
-
+/* form */
+.form-center{
+    position: relative;
+}
+.form-container{
+    width:50%;
+    height:70%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
