@@ -15,7 +15,7 @@ header{
     width:100%;
     height:110px;
 }
-h1, h2, th, p{
+h1, h2, th, .form-label, input[type=submit]{
     font-family: Bebas Neue, sans-serif;
     color:#3a3a3a;
     letter-spacing: 2px;
@@ -236,6 +236,7 @@ td{
     font-size: 120%;
     color:#3a3a3a;
     padding-left: 20px;
+    font-weight: 300;
 }
 .textarea-box{
     text-align: center;
@@ -254,12 +255,13 @@ input[type=email]{
 input[type=submit]{
     background-color: #3a3a3a;
     color:#ffffff;
-    border:1px solid #ec4a0f;
+    border:1px solid #ffffff;
     width: 25%;
     text-align: center;
     height:50px ;
     float:right;
     margin-right: 20px;
+    font-weight: 300;
 }
 /* .inquiry-box{
     margin-left: 20px;
