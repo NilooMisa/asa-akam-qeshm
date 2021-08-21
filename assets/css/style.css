@@ -20,56 +20,57 @@ h1, h2, th, .form-label, input[type=submit]{
     color:#3a3a3a;
     letter-spacing: 2px;
 }
-.logo-img{
+#logo-img{
     width: 10%;
     float:left;
     line-height: 75px;
     
 }
-.logo-box a{
+#logo-box a{
     text-decoration: none;
 }
-.logo-box p{
+#logo-box p{
     font-family: Bebas Neue, sans-serif;
     color:#3a3a3a;
 }
-.logo{
+#logo{
      font-size: 240%;
 
 }
+#logo-box a:hover{
+    cursor: pointer;
+}
 /* navigation bar */
-.menu{
+#menu{
     width:100%;
     text-align: center;
 }
 
-.menu li {
+#menu li {
     list-style-type: none;
     margin-right: 30px;
     font-size: 150%;
     display: inline;  
 }
 
-.menu li a:hover{
+#menu li a:hover{
     cursor: pointer;
     border-bottom: 1px solid #3a3a3a;
 }
-.logo-box a:hover{
-    cursor: pointer;
-}
+
 /* .menu li a:visited{
     color: #ec4a0f;
 } */
 /* .menu li a:focus{
     color:#ec4a0f;
 } */
-.menu li a{
+#menu li a{
     text-decoration: none;
     color:#3a3a3a;
 }
 
 /* section for background-image */
-.image-style{
+#image-style{
     width:100%;
     height:600px;
     overflow: hidden;
@@ -98,7 +99,7 @@ h1, h2, th, .form-label, input[type=submit]{
         transform: scale(1.1);
     }
 }
-.paragraph-center{
+#paragraph-center{
     margin: 0;
     position: absolute;
     top: 50%;
@@ -106,7 +107,7 @@ h1, h2, th, .form-label, input[type=submit]{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.paragraph-center p{
+#paragraph-center p{
     color: #ffffff;
     text-align: center;
     font-size: 170%;
@@ -114,73 +115,62 @@ h1, h2, th, .form-label, input[type=submit]{
     letter-spacing: 2px;
     font-family: Bebas Neue, sans-serif;
 }
-/*  footer  */
-footer{
-    background-color:#3a3a3a;
-    width: 100%;
-    height: auto;
-}
-footer ul{
-    list-style-type:none ;
-}
-footer h2, footer li{
-    /* font-family: Style Script, cursive; */
-    color:#F5F5F5;
-    letter-spacing: 2px;
-    font-weight: 300;
-}
 
-.office-address{
-    float: left;
-    margin-left:50px;
-    margin-top: 20px;   
-}
-/* .fa-envelope-square{
-    size: 5px;
-} */
-footer div {
-    clear: both;
-    width: 100%;
-}
-footer div p{
-    color: #FDB866;
-    padding-left: 50px;
-    padding-top: 10px;
-    /* font-family: Lato, sans-serif; */
-    padding-bottom: 10px;
-}
 
 /* about-us section */
 
-#about-us #company-details{
+#company-details{
     width:60%;
     margin-top: 50px;
     margin-left:30px;
     float: left;
 }
-#about-us #company-details h2{
+#company-details h2{
     text-align: center;
     color:#3a3a3a;    
 }
-#about-us #company-details p{
+ #company-details p{
     font-size: 120%;
     letter-spacing: 1px;
     text-align: center;
     font-family: Roboto, sans-serif;
     color: #ffffff;   
 }
-#about-us #company-details p ~ h2{
+#company-details p ~ h2{
     padding-top: 25px;
 }
+/* about-us image*/
 #about-us img{
     position: relative;
     width:35%;
     margin-left: 10px;
     margin-top: 130px;
 }
+/* figures for company logos */
+
+#logo-container {
+    width:100%;
+    height:45%;
+
+    font-family: Bebas Neue, sans-serif;
+}
+
+#logo-container figure{
+    width:12%;
+    text-align: center;
+    float: left;
+    padding-top: 10px;
+    border:1px solid #ffffff;
+
+}
+#logo-container figure a{
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
 /* tables for products */
 
-.table-container{
+#table-container{
     width:100%;
     height:55%;
 
@@ -209,33 +199,12 @@ td{
     padding-top: 10px;
     font-family: Bebas Neue, sans-serif;
 }
-/* figures for company logos */
 
-.logo-container {
-    width:100%;
-    height:45%;
-    
-}
-.logo-container {
-    font-family: Bebas Neue, sans-serif;
-}
-.logo-container figure{
-    width:12%;
-    text-align: center;
-    float: left;
-    padding-top: 10px;
-    border:1px solid #ffffff;
-
-}
-.logo-container figure a{
-    text-decoration: none;
-    color: #3a3a3a;
-}
 /* form */
-.form-center{
+#form-center{
     position: relative;
 }
-.form-container{
+#form-container{
     width:40%;
     height:60%;
     margin: 0;
@@ -277,3 +246,38 @@ input[type=submit]{
     font-size: 120%;
 }
 
+/*  footer  */
+footer{
+    background-color:#3a3a3a;
+    width: 100%;
+    height: auto;
+}
+footer ul{
+    list-style-type:none ;
+}
+footer h2, footer li{
+    /* font-family: Style Script, cursive; */
+    color:#F5F5F5;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.office-address{
+    float: left;
+    margin-left:50px;
+    margin-top: 20px;   
+}
+/* .fa-envelope-square{
+    size: 5px;
+} */
+footer div {
+    clear: both;
+    width: 100%;
+}
+footer div p{
+    color: #FDB866;
+    padding-left: 50px;
+    padding-top: 10px;
+    /* font-family: Lato, sans-serif; */
+    padding-bottom: 10px;
+}
