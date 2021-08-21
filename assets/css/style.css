@@ -17,7 +17,7 @@ header{
 }
 h1, h2, th, p{
     font-family: Bebas Neue, sans-serif;
-    color:#505050;
+    color:#3a3a3a;
     letter-spacing: 2px;
 }
 .logo-img{
@@ -61,7 +61,7 @@ h1, h2, th, p{
 } */
 .menu li a{
     text-decoration: none;
-    color:#505050;
+    color:#3a3a3a;
 }
 
 /* .active, .active-two, .active-three, .active-four{
@@ -99,7 +99,7 @@ h1, h2, th, p{
 }
 /*  footer  */
 footer{
-    background-color:#505050;
+    background-color:#3a3a3a;
     width: 100%;
     height: auto;
 }
@@ -143,7 +143,7 @@ footer div p{
 }
 #about-us #company-details h2{
     text-align: center;
-    color:#505050;
+    color:#3a3a3a;
     
 }
 #about-us #company-details p{
@@ -195,7 +195,7 @@ td{
     text-align: center;
 }
 .product-table caption{
-    color: #505050;
+    color: #3a3a3a;
     font-size: 100%;
     padding-top: 10px;
 }
@@ -236,6 +236,10 @@ td{
     font-size: 120%;
     color:#3a3a3a;
     padding-left: 20px;
+}
+.textarea-box{
+    text-align: center;
+    margin-top: 10px;
 }
 input[type=text]{
     width: 30%;
