@@ -86,9 +86,9 @@ h1, h2, th, .form-label, input[type=submit]{
     color: #ffffff;
     text-align: center;
     font-size: 150%;
-    font-family: Lato, sans-serif;
     font-weight:150 ;
     letter-spacing: 2px;
+    font-family: Bebas Neue, sans-serif;
 }
 /*  footer  */
 footer{
