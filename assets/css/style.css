@@ -39,10 +39,8 @@ h1, h2, th, .form-label, input[type=submit]{
 }
 /* navigation bar */
 .menu{
-    height:50px;
     width:100%;
     text-align: center;
-    margin-right:25px;
 }
 
 .menu li {
@@ -51,7 +49,6 @@ h1, h2, th, .form-label, input[type=submit]{
     margin-right: 30px;
     font-size: 150%;
     display: inline;  
-    line-height: 75px;
 }
 
 .menu li a:hover, .logo-box a:hover{
@@ -92,7 +89,7 @@ h1, h2, th, .form-label, input[type=submit]{
 .paragraph-center p{
     color: #ffffff;
     text-align: center;
-    font-size: 150%;
+    font-size: 170%;
     font-weight:150 ;
     letter-spacing: 2px;
     font-family: Bebas Neue, sans-serif;
