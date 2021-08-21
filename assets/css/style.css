@@ -26,6 +26,9 @@ h1, h2, th, .form-label, input[type=submit]{
     line-height: 75px;
     
 }
+.logo-box a{
+    text-decoration: none;
+}
 .logo{
      font-size: 240%;
 
@@ -47,7 +50,7 @@ h1, h2, th, .form-label, input[type=submit]{
     line-height: 75px;
 }
 
-.menu li a:hover{
+.menu li a:hover, .logo-box a:hover{
     cursor: pointer;
 }
 /* .menu li a:visited{
