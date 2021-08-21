@@ -65,18 +65,37 @@ h1, h2, th, .form-label, input[type=submit]{
     color:#3a3a3a;
 }
 
-/* section for home and about us*/
-
+/* section for background-image */
+.image-style{
+    width:100%;
+    height:600px;
+    overflow: hidden;
+}
 .background-rules {
     background: url('../images/lucas-benjamin-GAM-7l4QzmI-unsplash\ \(1\).jpg') no-repeat center center;
     width:100%;
     height:600px;
     background-color:#ec4a0f;
-    background-size: cover;
-    background-attachment: scroll;
+    /* background-size: cover;
+    background-attachment: scroll; */
+    
 }
+
 #hero-image{
     position: relative;
+    /* animation zoom effect when loading */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+/* create animation for background-image */
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 .paragraph-center{
     margin: 0;
