@@ -235,12 +235,13 @@ td{
 .form-label{
     font-size: 120%;
     color:#3a3a3a;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     font-weight: 300;
-}
-.textarea-box{
     text-align: center;
-    margin-top: 10px;
+}
+.form-box{
+    text-align: center;
+    margin-top: 15px;
 }
 input[type=text]{
     width: 30%;
@@ -251,17 +252,17 @@ input[type=email]{
     width:40%;
     height: 40px;
     margin-top: 5px;
+    /* margin-left: ; */
 }
 input[type=submit]{
     background-color: #3a3a3a;
     color:#ffffff;
     border:1px solid #ffffff;
     width: 25%;
-    text-align: center;
     height:50px ;
-    float:right;
     margin-right: 20px;
     font-weight: 300;
+    font-size: 120%;
 }
 /* .inquiry-box{
     margin-left: 20px;
