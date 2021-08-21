@@ -196,19 +196,20 @@ td{
     height:45%;
     
 }
-/* .logo-container span{
+.logo-container {
     font-family: Bebas Neue, sans-serif;
-} */
+}
 .logo-container figure{
-    width:20%;
+    width:15%;
     text-align: center;
     float: left;
     padding-top: 10px;
+    border:1px solid #ffffff;
 
 }
 .logo-container figure a{
     text-decoration: none;
-    color: #ffffff;
+    color: #3a3a3a;
 }
 /* form */
 .form-center{
