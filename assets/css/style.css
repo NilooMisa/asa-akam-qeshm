@@ -51,7 +51,11 @@ h1, h2, th, .form-label, input[type=submit]{
     display: inline;  
 }
 
-.menu li a:hover, .logo-box a:hover{
+.menu li a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #3a3a3a;
+}
+.logo-box a:hover{
     cursor: pointer;
 }
 /* .menu li a:visited{
@@ -76,8 +80,6 @@ h1, h2, th, .form-label, input[type=submit]{
     width:100%;
     height:600px;
     background-color:#ec4a0f;
-    /* background-size: cover;
-    background-attachment: scroll; */
     
 }
 
