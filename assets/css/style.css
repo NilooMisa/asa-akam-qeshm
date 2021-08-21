@@ -143,14 +143,14 @@ footer div p{
     color:#3a3a3a;    
 }
 #about-us #company-details p{
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 1px;
     text-align: center;
-    font-family: Lato, sans-serif;
+    font-family: Roboto, sans-serif;
     color: #ffffff;   
 }
 #about-us #company-details p ~ h2{
-    margin-top: 25px;
+    padding-top: 25px;
 }
 #about-us img{
     position: relative;
@@ -187,6 +187,7 @@ td{
     color: #3a3a3a;
     font-size: 100%;
     padding-top: 10px;
+    font-family: Bebas Neue, sans-serif;
 }
 /* figures for company logos */
 
@@ -195,10 +196,14 @@ td{
     height:45%;
     
 }
+/* .logo-container span{
+    font-family: Bebas Neue, sans-serif;
+} */
 .logo-container figure{
     width:20%;
     text-align: center;
     float: left;
+    padding-top: 10px;
 
 }
 .logo-container figure a{
