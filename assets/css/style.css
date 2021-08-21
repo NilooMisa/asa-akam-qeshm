@@ -21,13 +21,17 @@ h1, h2, th, .form-label, input[type=submit]{
     letter-spacing: 2px;
 }
 .logo-img{
-    width: 7%;
+    width: 10%;
     float:left;
     line-height: 75px;
     
 }
 .logo-box a{
     text-decoration: none;
+}
+.logo-box p{
+    font-family: Bebas Neue, sans-serif;
+    color:#3a3a3a;
 }
 .logo{
      font-size: 240%;
