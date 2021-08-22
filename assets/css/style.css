@@ -194,7 +194,14 @@ hr{
     width:70px;
     height:70px;
 }
-
+.rep-company-details a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+.rep-company-details a:hover{
+    cursor: pointer;
+    color: #ec4a0f;
+}
 /* #figure-container{
     width:100%;
     height:100%;
