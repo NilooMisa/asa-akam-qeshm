@@ -165,7 +165,7 @@ hr{
     font-family: Bebas Neue, sans-serif;
     border-collapse: collapse;
 }
-#logo-container h1{
+#logo-container h1, #form-center h1{
     text-align: center;
     background-color: #FDB866;
 }
@@ -265,13 +265,14 @@ td{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border:thin solid #3a3a3a;
-    /* background-color: #ffffff; */
+    background-color: #f0833b;
 }
 .form-label{
     font-size: 120%;
     color:#3a3a3a;
     font-weight: 300;
     text-align: center;
+    padding-bottom: 50px;
 }
 .form-box{
     text-align: center;
@@ -281,15 +282,17 @@ td{
 input[type=text]{
     width: 30%;
     height: 40px;
+    
 }
 input[type=email]{
     width:40%;
     height: 40px;
+    
 }
 input[type=submit]{
     background-color: #3a3a3a;
     color:#ffffff;
-    border:1px solid #FDB866;
+    border:1px solid #ffffff;
     width: 25%;
     height:50px ;
     margin-right: 20px;
