@@ -105,6 +105,7 @@ h1, h2, th, .form-label, input[type=submit]{
         transform: scale(1.1);
     }
 }
+/* center the paragraph with help of W3S */
 #paragraph-center{
     margin: 0;
     position: absolute;
@@ -145,7 +146,7 @@ h1, h2, th, .form-label, input[type=submit]{
 #company-details p ~ h2{
     padding-top: 25px;
 }
-/* about-us image*/
+/* about-us image */
 #about-us img{
     position: relative;
     width:35%;
@@ -160,16 +161,29 @@ hr{
 #logo-container {
     width:100%;
     height:45%;
-
+    
     font-family: Bebas Neue, sans-serif;
 }
 
-#logo-container figure{
+#figure-container{
+    width:100%;
+    height:100%;
+    /* text-align: center; */
+    /* margin:auto; */
+}
+
+#figure-container figure{
     width:12%;
     text-align: center;
     float: left;
     padding-top: 10px;
-    border:1px solid #ffffff;
+    border:1px solid blue;
+    margin-left: 30px;
+
+}
+#logo-container figure img{
+    width:150px;
+    height:150px;
 
 }
 #logo-container figure a{
@@ -197,9 +211,9 @@ th {
 
 }
 td{
-    color: #ffffff;
+    color: #3a3a3a;
     font-size: 110%;
-    border: 1px solid #ffffff;
+    border: 1px solid #3a3a3a;
     text-align: center;
 }
 .product-table caption{
@@ -222,7 +236,7 @@ td{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    border:thin solid #ffffff;
+    border:thin solid #3a3a3a;
     /* background-color: #ffffff; */
 }
 .form-label{
@@ -247,7 +261,7 @@ input[type=email]{
 input[type=submit]{
     background-color: #3a3a3a;
     color:#ffffff;
-    border:1px solid #ffffff;
+    border:1px solid #FDB866;
     width: 25%;
     height:50px ;
     margin-right: 20px;
