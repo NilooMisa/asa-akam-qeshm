@@ -163,16 +163,36 @@ hr{
     height:45%;
     
     font-family: Bebas Neue, sans-serif;
+    border-collapse: collapse;
 }
 #logo-container h1{
     text-align: center;
+    background-color: #FDB866;
 }
 .companies{
-    float: right;
-    width:200px;
-    height:200px;
-    border: 1px solid blue;
+    float: left;
+    width:250px;
+    height:250px;
+    /* border: 1px solid silver;
+    border-radius: 50%; */
     padding-top: 20px;
+    /* margin-bottom: 50px; */
+}
+.rep-company-details{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    line-height: 20px;
+}
+.rep-company-details h2{
+    padding-top: 20px;
+}
+.rep-company-details p{
+    padding-top: 15px;
+}
+.rep-company-details img{
+    width:70px;
+    height:70px;
 }
 
 /* #figure-container{
