@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Asaakam logo](assets/images/en-logo.png)
 
 Welcome NilooMisa,
 

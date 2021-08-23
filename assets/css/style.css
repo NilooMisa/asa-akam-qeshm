@@ -115,13 +115,12 @@ h1, h2, th, .form-label, input[type=submit]{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-#paragraph-center p{
+#paragraph-center h2{
     color: #f5f5f5;
     text-align: center;
     font-size: 170%;
     font-weight:150 ;
     letter-spacing: 2px;
-    font-family: Bebas Neue, sans-serif;
 }
 
 
@@ -315,14 +314,22 @@ footer h2, footer li{
     margin-top: 20px;   
     line-height: 20px;
 }
+/* social media and mail links box */
+
 #social-media a{
     text-decoration: none;
     color:#f5f5f5;
 }
+#social-media a:hover{
+    cursor: pointer;
+    color:#ec4a0f;
+}
 #social-media h2{
     text-transform: uppercase;
     color: #f5f5f5;
+    line-height: 30px;
 }
+/* copyright rules*/
 footer div {
     clear: both;
     width: 100%;
