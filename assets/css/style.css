@@ -309,11 +309,20 @@ footer h2, footer li{
 }
 
 .office-address{
+    width:25%;
     float: left;
     margin-left:50px;
     margin-top: 20px;   
+    line-height: 20px;
 }
-
+#social-media a{
+    text-decoration: none;
+    color:#f5f5f5;
+}
+#social-media h2{
+    text-transform: uppercase;
+    color: #f5f5f5;
+}
 footer div {
     clear: both;
     width: 100%;
