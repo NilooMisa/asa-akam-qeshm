@@ -165,15 +165,14 @@ hr{
     float: left;
     width:20%;
     height:inherit;
-
-    padding-top: 20px; 
+    padding-top: 10px; 
     
 }
 .rep-company-details{
     width: 100%;
     height:100%;
     text-align: center;
-    line-height: 20px;
+    /* line-height: 20px; */
 }
 .rep-company-details h2{
     padding-top: 20px;
@@ -247,6 +246,9 @@ td{
 #form-center h1{
     text-align: center;
     padding-top: 20px;
+}
+#form-container textarea{
+    max-width: 95%;
 }
 .form-label{
     font-size: 120%;
@@ -352,10 +354,10 @@ footer div p{
    /* header */
     header{
         width:100%;
-        height: 100px;
+        height: 70px;
     }
     #logo-img{
-        width:17%;
+        width:20%;
     
     }
     #logo{
@@ -364,11 +366,11 @@ footer div p{
    }
    #logo-box p{
     font-size:80% ;
-    padding-left:17% ;
     padding-bottom: 2%;
 }
     #menu  li{
         font-size: 110%;
+        margin-bottom: 2%;
         
     }
     
@@ -392,28 +394,32 @@ footer div p{
     #about-us img{
         border-radius:5%;
         width:100%;
-    
-        margin-top:20%;
+        padding-top:20%;
         clear:right;
         margin-right: 0;
     }
     /* representatives section */
+    #products{
+        width:100%;
+        height:1200px;
+    }
+    #logo-container {
+        height:50%;
+    }
+    #first-company{
+        padding-top: 1%;
+    }
     .companies{
         width:100%;
-        height:100px;
+        height:90px;
         clear: left;
         margin-top: 12%;
     }
-    #products{
-        width:100%;
-        height:1800px;
-    }
-    #logo-container {
-        height:60%;
-    }
+    
+    
     /* table section*/
     #table-container{
-        height:40%;
+        height:60%;
       
     }
     
@@ -421,7 +427,7 @@ footer div p{
        margin: 0 auto;
     }
     .product-table > caption{
-        padding-top:70px;
+        padding-top:1%;
     }
     /* form */
     #form-center{
@@ -450,104 +456,7 @@ footer div p{
     
 }
 
-/* for devices with 768px and down viewports */
-@media only screen and (max-width:768px){
-    /* header */
-    header{
-        width:100%;
-        height: 140px;
-    }
-    
-    #logo{
-        font-size: 130%;
-   
-   }
-   #logo-box p{
-    font-size:90% ;
-    
-    padding-bottom: 2%;
-}
-    #menu  li{
-        font-size: 120%;
-        
-    }
-    
-    
-    /* about us section*/
-    #about-us{
-        width:100%;
-        height:1200px;
-    
-    }
-    #company-details {
-        width:100%;
-        clear:both;
-        margin:0 ;
 
-    }
-    #company-details p, #company-details h2{
-        padding-top: 2%;
-     
-    }
-    /* about us image*/
-    #about-us img{
-        border-radius:5%;
-        width:100%;
-    
-        margin-top:20%;
-        clear:right;
-        margin-right: 0;
-    }
-    /* representatives section */
-    .companies{
-        width:100%;
-        height:100px;
-        clear: left;
-        margin-top: 12%;
-    }
-    #products{
-        width:100%;
-        height:1800px;
-    }
-    #logo-container {
-        height:60%;
-    }
-    /* table section*/
-    #table-container{
-        height:40%;
-      
-    }
-    
-    .product-table{
-       margin: 0 auto;
-    }
-    .product-table > caption{
-        padding-top:70px;
-    }
-    /* form */
-    #form-center{
-        width:100%;
-        height:600px;
-        
-    }
-    #form-container{
-        width:90%;
-        height:400px;
-        margin:0;
-        padding: 0;
-    }
-    #form-container textarea{
-        max-width: 95%;
-    }
-    input[type=submit]{
-        margin-top: 3%;
-    }
-    /* footer */
-    .office-address{
-        clear: left;
-        width:90%;
-    }
-}
 /* for devices with 992px and down viewports */
 @media only screen and (max-width:992px){
     /* header */
@@ -591,27 +500,27 @@ footer div p{
     #about-us img{
         border-radius:5%;
         width:100%;
-        margin-top:20%;
+        margin-top:3%;
         clear:right;
         margin-right: 0;
     }
     /* representatives section */
     .companies{
         width:100%;
-        height:100px;
+        height:90px;
         clear: left;
-        margin-top: 12%;
+        padding-top: 12%;
     }
     #products{
         width:100%;
         height:1800px;
     }
     #logo-container {
-        height:60%;
+        height:70%;
     }
     /* table section*/
     #table-container{
-        height:40%;
+        height:30%;
       
     }
     
