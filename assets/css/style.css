@@ -401,7 +401,7 @@ footer div p{
         width:100%;
         height:100px;
         clear: left;
-        margin-top: 15%;
+        margin-top: 12%;
     }
     #products{
         width:100%;
@@ -412,5 +412,17 @@ footer div p{
     }
     #table-container{
         height:40%;
+      
     }
+    /* .product-table{
+        
+    } */
+    .product-table{
+        /* padding-top: 2%; */
+       margin: 0 auto;
+    }
+    .product-table > caption{
+        padding-top:60px;
+    }
+
 }
