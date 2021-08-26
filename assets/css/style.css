@@ -387,18 +387,20 @@ footer div p{
     #company-details {
         width:100%;
         clear:both;
+        margin:0 ;
 
     }
-    #company-details p{
-        padding-right: 2%;
+    #company-details p, #company-details h2{
+        padding-top: 2%;
      
     }
     #about-us img{
         border-radius:5%;
         width:100%;
-        /* margin-right: 2%; */
+    
         margin-top:20%;
         clear:both;
+        margin-right: 0;
         
     }
 
