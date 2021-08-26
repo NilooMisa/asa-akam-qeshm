@@ -293,7 +293,7 @@ input[type=submit]:hover{
 footer{
     background-color:#3a3a3a;
     width: 100%;
-    height: auto;
+    height: 300px;
 }
 footer ul{
     list-style-type:none ;
@@ -308,12 +308,22 @@ footer h2, footer li{
 .office-address{
     width:25%;
     float: left;
-    margin-left:50px;
-    margin-top: 20px;   
+    margin-left:3%;
+    margin-top: 2%;   
     line-height: 20px;
 }
 /* social media and mail links box */
+#social-media{
+    text-align: center;
+}
+#social-media ul{
+    list-style-type: none;
 
+}
+#social-media ul > li{
+    display: inline;
+    margin-left: 3%;
+}
 #social-media a{
     text-decoration: none;
     color:#f5f5f5;
@@ -327,6 +337,9 @@ footer h2, footer li{
     color: #f5f5f5;
     line-height: 30px;
 }
+#social-media i{
+    font-size: 160%;
+}
 /* copyright rules*/
 footer div {
     clear: both;
@@ -334,8 +347,6 @@ footer div {
 }
 footer div p{
     color: #FDB866;
-    padding-left: 50px;
-    padding-top: 10px;
-
-    padding-bottom: 10px;
+    padding-left: 3%;
+    padding-top: 1%;
 }
