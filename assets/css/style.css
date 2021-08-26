@@ -20,7 +20,7 @@ h1, h2, h3, th, .form-label, input[type=submit]{
 
 }
 #logo-img{
-    width: 10%;
+    width: 11%;
     float:left;
     
 }
@@ -30,7 +30,6 @@ h1, h2, h3, th, .form-label, input[type=submit]{
 #logo-box p{
     font-family: 'Bebas Neue', sans-serif;
     color:#3a3a3a;
-    padding-left:10% ;
     padding-bottom: 2%;
 }
 #logo{
@@ -348,7 +347,7 @@ footer div p{
 }
 /* media queries*/
  
-/* for devices with 600px and down viewport*/
+/* for devices with 600px and down viewports */
 @media only screen and (max-width:600px){
    /* header */
     header{
@@ -372,8 +371,6 @@ footer div p{
         font-size: 110%;
         
     }
-    /* paragraph section and background image*/
-    
     
     /* about us section*/
     #about-us{
@@ -453,31 +450,27 @@ footer div p{
     
 }
 
-/* for devices with 768px and down viewport*/
+/* for devices with 768px and down viewports */
 @media only screen and (max-width:768px){
     /* header */
     header{
         width:100%;
         height: 140px;
     }
-    /* #logo-img{
-        width:%;
     
-    } */
     #logo{
         font-size: 130%;
    
    }
    #logo-box p{
     font-size:90% ;
-    /* padding-left:20% ; */
+    
     padding-bottom: 2%;
 }
     #menu  li{
         font-size: 120%;
         
     }
-    /* paragraph section and background image*/
     
     
     /* about us section*/
@@ -501,6 +494,103 @@ footer div p{
         border-radius:5%;
         width:100%;
     
+        margin-top:20%;
+        clear:right;
+        margin-right: 0;
+    }
+    /* representatives section */
+    .companies{
+        width:100%;
+        height:100px;
+        clear: left;
+        margin-top: 12%;
+    }
+    #products{
+        width:100%;
+        height:1800px;
+    }
+    #logo-container {
+        height:60%;
+    }
+    /* table section*/
+    #table-container{
+        height:40%;
+      
+    }
+    
+    .product-table{
+       margin: 0 auto;
+    }
+    .product-table > caption{
+        padding-top:70px;
+    }
+    /* form */
+    #form-center{
+        width:100%;
+        height:600px;
+        
+    }
+    #form-container{
+        width:90%;
+        height:400px;
+        margin:0;
+        padding: 0;
+    }
+    #form-container textarea{
+        max-width: 95%;
+    }
+    input[type=submit]{
+        margin-top: 3%;
+    }
+    /* footer */
+    .office-address{
+        clear: left;
+        width:90%;
+    }
+}
+/* for devices with 992px and down viewports */
+@media only screen and (max-width:992px){
+    /* header */
+    header{
+        width:100%;
+        height: 140px;
+    }
+    
+    #logo-img{
+        width:13%;
+    
+    }
+   #logo-box p{
+    font-size:90% ;
+    
+    padding-bottom: 2%;
+}
+    #menu  li{
+        font-size: 120%;
+        
+    }
+    
+    
+    /* about us section*/
+    #about-us{
+        width:100%;
+        height:1200px;
+    
+    }
+    #company-details {
+        width:100%;
+        clear:both;
+        margin:0 ;
+
+    }
+    #company-details p, #company-details h2{
+        padding-top: 2%;
+     
+    }
+    /* about us image*/
+    #about-us img{
+        border-radius:5%;
+        width:100%;
         margin-top:20%;
         clear:right;
         margin-right: 0;
