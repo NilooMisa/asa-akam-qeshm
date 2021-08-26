@@ -7,12 +7,11 @@
 body {
     
     font-family:Roboto, 'Bebas Neue', sans-serif;
-    /* font-weight: 400; */
 }
 /* headings and logo */
 header{
     width:100%;
-    height:110px;
+    height:150px;
 }
 h1, h2, h3, th, .form-label, input[type=submit]{
     font-family: 'Bebas Neue', sans-serif;
@@ -22,7 +21,6 @@ h1, h2, h3, th, .form-label, input[type=submit]{
 #logo-img{
     width: 10%;
     float:left;
-    line-height: 75px;
     
 }
 #logo-box a{
@@ -31,6 +29,8 @@ h1, h2, h3, th, .form-label, input[type=submit]{
 #logo-box p{
     font-family: 'Bebas Neue', sans-serif;
     color:#3a3a3a;
+    padding-left:10% ;
+    padding-bottom: 2%;
 }
 #logo{
      font-size: 240%;
@@ -45,9 +45,9 @@ h1, h2, h3, th, .form-label, input[type=submit]{
     text-align: center;
 }
 
-#menu li {
+#menu  li {
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 2%;
     font-size: 150%;
     display: inline;  
 }
@@ -58,12 +58,6 @@ h1, h2, h3, th, .form-label, input[type=submit]{
     color:#ec4a0f;
 }
 
-/* .menu li a:visited{
-    color: #ec4a0f;
-} */
-/* .menu li a:focus{
-    color:#ec4a0f;
-} */
 #menu li a{
     text-decoration: none;
     color:#3a3a3a;
@@ -111,7 +105,7 @@ h1, h2, h3, th, .form-label, input[type=submit]{
     position: absolute;
     top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
+    /* -ms-transform: translate(-50%, -50%); */
     transform: translate(-50%, -50%);
 }
 #paragraph-center h2{
@@ -149,8 +143,8 @@ h1, h2, h3, th, .form-label, input[type=submit]{
     float:right;
     border-radius:5%;
     width:35%;
-    margin-right: 10px;
-    margin-top: 120px;
+    margin-right: 2%;
+    margin-top:10%;
 }
 hr{
     border-bottom: 1px solid #3a3a3a;
@@ -349,4 +343,51 @@ footer div p{
     color: #FDB866;
     padding-left: 3%;
     padding-top: 1%;
+}
+/* media queries*/
+ 
+@media only screen and (max-width:600px){
+   /* body{ 
+       margin: 0;
+       padding:0;
+   } */
+    header{
+        width:100%;
+        height: 100px;
+    }
+    #logo-img{
+        width:15%;
+    
+    }
+    #logo{
+        font-size: 110%;
+   
+   }
+   #logo-box p{
+    font-size:70% ;
+    padding-left:15% ;
+    padding-bottom: 2%;
+}
+    #menu  li{
+        /* margin-right: 2%; */
+        font-size: 100%;
+        /* display: inline; */
+    }
+    #about-us{
+        width:100%;
+        height:1200px;
+        /* font-size: 65%; */
+    }
+    #company-details {
+        width:100%;
+        clear:both;
+
+    }
+    #about-us img{
+        border-radius:5%;
+        width:100%;
+        /* margin-right: 2%; */
+        margin-top:20%;
+        clear:both;
+    }
 }
