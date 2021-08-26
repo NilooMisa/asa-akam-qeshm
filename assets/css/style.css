@@ -344,6 +344,7 @@ footer div p{
     color: #FDB866;
     padding-left: 3%;
     padding-top: 1%;
+    padding-bottom: 1%;
 }
 /* media queries*/
  
@@ -443,5 +444,10 @@ footer div p{
         margin-top: 3%;
     }
     /* footer */
+    .office-address{
+        clear: left;
+        width:90%;
 
+    }
+    
 }
