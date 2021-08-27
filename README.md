@@ -13,6 +13,7 @@ Asa akam company's website would provide services and information to the people 
     >> * This section would allow the user to navigate through different parts of the website, it highlights the information that you are going to get by visiting this website. It includes links to *About Us*, *Products* and *Contact* sections.
     >> * The elements would get style which underline and highlight them while hover.
 > ### Landing hero image
-
+    >> * A landing hero image with eye-catching color which is showcasing a heading which is vertically and horizontally centered.
+    >> * The image and text have animation effect which is responsive in different platforms. 
 
    
