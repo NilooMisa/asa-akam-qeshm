@@ -6,4 +6,13 @@ Asa akam company's website would provide services and information to the people 
 
 ## Existing features
 ***
-### Header 
+ > ### Header 
+    >> * The full responsive header which has the nav bar inside it, It consists both fonts of website and the plain white color would compliment the website.
+    >> * It showcases the company's logo, name and a small description of what company does. \
+>> **nav bar**
+    >> * This section would allow the user to navigate through different parts of the website, it highlights the information that you are going to get by visiting this website. It includes links to *About Us*, *Products* and *Contact* sections.
+    >> * The elements would get style which underline and highlight them while hover.
+> ### Landing hero image
+
+
+   
