@@ -44,6 +44,15 @@ Asa akam company's website would provide services and information to the people 
 >>**Lighthouse**
 >>* Results for desktop
 >>* Results for mobile
+>>### Unfixed bugs
+>* ----
+## Deployment
+***
+* The website was deployed to GitHub pages. Here are the steps:\
+1.In the GitHub repository, navigate to the Settings tab\
+2.Scroll down to *GitHub pages* section, select the Master Branch(main)\
+3.Once the master branch has been saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 
 
 
