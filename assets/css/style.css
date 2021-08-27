@@ -150,7 +150,7 @@ h1, h2, h3, th, .form-label, input[type=submit]{
     border-radius:5%;
     width:35%;
     margin-right: 1%;
-    margin-top:13%;
+    margin-top:15%;
 }
 hr{
     border-bottom: 1px solid #3a3a3a;
@@ -389,6 +389,16 @@ footer div p{
     .rep-company-details p{
         font-size:90% ;
     }
+    .companies img{
+        width: 50px;
+        height: 50px;
+    }
+    #logo-container{
+        height: 40%;
+    }
+    #table-container{
+        height: 60%;
+    }
 }
  
 /* for devices with 600px and down viewports */
@@ -440,25 +450,30 @@ footer div p{
     /* representatives section */
     #products{
         width:100%;
-        height:1800px;
+        height:1500px;
     }
     #logo-container {
-        height:60%;
+        height:55%;
     }
     #first-company{
         padding-top: 1%;
+    }
+    .companies img{
+        width: 50px;
+        height: 50px;
     }
     .companies{
         width:100%;
         height:90px;
         clear: left;
-        padding-top: 25%;
+        padding-top: 10%;
+        /* padding: 0; */
     }
     
     
     /* table section*/
     #table-container{
-        height:40%;
+        height:45%;
       
     }
     
