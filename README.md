@@ -6,10 +6,10 @@ Asa akam company's website would provide services and information to the people 
 
 ## Features
 ***
- > ### Header 
+ > ### Header section
     >> * The full responsive header which has the nav bar inside it, It consists both fonts of website and the plain white color would compliment the website.
     >> * It showcases the company's logo, name and a small description of what company does. \
->> **nav bar**
+>> **navigation bar**
     >> * This section would allow the user to navigate through different parts of the website, it highlights the information that you are going to get by visiting this website. It includes links to *About Us*, *Products* and *Contact* sections.
     >> * The elements would get style which underline and highlight them while hover.
 > ### Landing hero image
@@ -27,11 +27,13 @@ Asa akam company's website would provide services and information to the people 
 >>* This section showcases the range of the products in two seperate charts including *dyestuff* and *textile auxiliaries*.
 >>* The tables are responsive in all platforms and the style is consistant with the page.
 >>* The content of the tables could be updated in the future while the table keeps its responsiveness.
->### Contact Us
+>### Contact Us section
 >> * The user could contact the company directly via the form which is placed within the page.
 >> * The form style matches the page and it's responsive for all platforms. The form needs full-name and email address to be sent.
->### Footer
+>### Footer section
 >>* This section contains the two addresses of the company, the company's email address, links to social media and direct email link to company. This option is provided as an additional way of communicating with the company.
+>>* The colors in styling are consistant with the website and copyright is also added at the end of footer.
+>>* In responsive design, addresses and email address would come on top of each other. 
 
 
    
