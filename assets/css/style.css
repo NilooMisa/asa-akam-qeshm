@@ -43,13 +43,17 @@ h1, h2, h3, th, .form-label, input[type=submit]{
 #menu{
     width:100%;
     text-align: center;
+   
 }
 
 #menu  li {
+    color: #3a3a3a;
     list-style-type: none;
     margin-right: 2%;
     font-size: 150%;
     display: inline;  
+    
+    
 }
 
 #menu li a:hover{
