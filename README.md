@@ -38,9 +38,13 @@ Asa akam company's website would provide services and information to the people 
 ## Testing
 ***
 > **Validator Testing** 
->>* HTML: *no errors were found*
->>* CSS: *no errors were found*
->>* The colors of the fonts and and background have been checked and the content is readable.
+>>* HTML: *no errors were found*[W3S-validator]()
+>>* CSS: *no errors were found*[Jigsaw-validator]()
+>>* The colors of the content and background have been checked and the content is readable.
+>>**Lighthouse**
+>>* Results for desktop
+>>* Results for mobile
+
 
 
 
