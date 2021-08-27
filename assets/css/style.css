@@ -98,17 +98,16 @@ h1, h2, h3, th, .form-label, input[type=submit]{
         transform: scale(1.1);
     }
 }
-/* center the paragraph with help of W3S */
-#paragraph-center{
+/* center the heading with help of W3S */
+#heading-center{
     width:70%;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
-    /* -ms-transform: translate(-50%, -50%); */
     transform: translate(-50%, -50%);
 }
-#paragraph-center h2{
+#heading-center h2{
     color: #f5f5f5;
     text-align: center;
     font-size: 170%;
