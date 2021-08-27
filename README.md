@@ -33,7 +33,15 @@ Asa akam company's website would provide services and information to the people 
 >### Footer section
 >>* This section contains the two addresses of the company, the company's email address, links to social media and direct email link to company. This option is provided as an additional way of communicating with the company.
 >>* The colors in styling are consistant with the website and copyright is also added at the end of footer.
->>* In responsive design, addresses and email address would come on top of each other. 
+>* In responsive design, addresses and email address would come on top of each other.
+
+## Testing
+***
+> **Validator Testing** 
+>>* HTML: *no errors were found*
+>>* CSS: *no errors were found*
+
+
 
 
    
