@@ -15,9 +15,13 @@ Asa akam company's website would provide services and information to the people 
 > ### Landing hero image
     >> * A landing hero image with eye-catching color which is showcasing a heading which is vertically and horizontally centered.
     >> * The image and text have animation effect which is responsive in different platforms. 
-> ### About Us 
->> * Showcases two sections consistant of information about the company(on the left) alongside an image(on the left).
+> ### About Us section
+>> * Showcases two sections consistant of information about the company(on the left) alongside an image(on the right).
 >> *  The text section would give the user more history about the company and assure them of the services which company provides. It also showcases the information about the lab of the company to give user a better information about what company does. The text includes *About our company*, *Our lab* and *Our services* sections. 
 >> * The text content would take full-width of viewport in responsive designs and the image would come at the end of the texts. 
+> ### Partners section
+>> * This section showcases the company's real partners in importing dyestuff and textile auxiliaries and links which open in a new tab.
+>> * This section would be updated in the name or the number of the current partners change.
+>> * The design of the companies would change in responsive design for small devices and each company section would take the full-width of the viewport.
 
    
