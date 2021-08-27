@@ -26,7 +26,12 @@ Asa akam company's website would provide services and information to the people 
 > ### Table section
 >>* This section showcases the range of the products in two seperate charts including *dyestuff* and *textile auxiliaries*.
 >>* The tables are responsive in all platforms and the style is consistant with the page.
-
+>>* The content of the tables could be updated in the future while the table keeps its responsiveness.
+>### Contact Us
+>> * The user could contact the company directly via the form which is placed within the page.
+>> * The form style matches the page and it's responsive for all platforms. The form needs full-name and email address to be sent.
+>### Footer
+>>* This section contains the two addresses of the company, the company's email address, links to social media and direct email link to company. This option is provided as an additional way of communicating with the company.
 
 
    
