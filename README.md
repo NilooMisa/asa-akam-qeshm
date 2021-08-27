@@ -48,10 +48,21 @@ Asa akam company's website would provide services and information to the people 
 >* ----
 ## Deployment
 ***
-* The website was deployed to GitHub pages. Here are the steps:\
-1.In the GitHub repository, navigate to the Settings tab\
-2.Scroll down to *GitHub pages* section, select the Master Branch(main)\
-3.Once the master branch has been saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The website was deployed to GitHub pages. Here are the steps:
+1. In the GitHub repository, navigate to the Settings tab
+2. Scroll down to *GitHub pages* section, select the Master Branch(main)
+3. Once the master branch has been saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+
+Here is the link to the live site  https://niloomisa.github.io/asa-akam-qeshm/
+
+## Credits
+***
+### Content
+- The hero image was takes from [unsplash](https://unsplash.com/photos/GAM-7l4QzmI) and the credit goes to the photographer Lucas Benjamin
+- The icons were taken from [fontawesome](https://fontawesome.com/).
+- The codes for centering the paragraph on home page and form section were from [W3S](https://www.w3schools.com/howto/howto_css_center-vertical.asp).
+
 
 
 
