@@ -40,6 +40,7 @@ Asa akam company's website would provide services and information to the people 
 > **Validator Testing** 
 >>* HTML: *no errors were found*
 >>* CSS: *no errors were found*
+>>* The colors of the fonts and and background have been checked and the content is readable.
 
 
 
