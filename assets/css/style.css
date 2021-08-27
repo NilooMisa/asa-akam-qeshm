@@ -293,11 +293,13 @@ footer ul{
 }
 footer h2, footer li{
 
-    color:#f5f5f5;
+    
     letter-spacing: 2px;
     font-weight: 300;
 }
-
+footer li{
+    color:#f5f5f5;
+}
 .office-address{
     width:30%;
     float: left;
@@ -324,9 +326,9 @@ footer h2, footer li{
     cursor: pointer;
     color:#ec4a0f;
 }
-#social-media h2{
+#social-media h2, footer h2{
     text-transform: uppercase;
-    color: #f5f5f5;
+    color: #FDB866;
 }
 #social-media i{
     font-size: 160%;
