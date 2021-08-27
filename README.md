@@ -59,10 +59,14 @@ Here is the link to the live site  https://niloomisa.github.io/asa-akam-qeshm/
 ## Credits
 ***
 ### Content
-- The hero image was takes from [unsplash](https://unsplash.com/photos/GAM-7l4QzmI) and the credit goes to the photographer Lucas Benjamin
 - The icons were taken from [fontawesome](https://fontawesome.com/).
-- The codes for centering the paragraph on home page and form section were from [W3S](https://www.w3schools.com/howto/howto_css_center-vertical.asp).
+- The codes for centering the paragraph on home page within the hero-image and form section were from [W3S](https://www.w3schools.com/howto/howto_css_center-vertical.asp).
+- The content was provided by the company.
+- Love Running project and Coding Club on [CI](https://codeinstitute.net) LMS.
 
+### Media
+- The hero image was takes from [unsplash](https://unsplash.com/photos/GAM-7l4QzmI) and the credit goes to the photographer Lucas Benjamin.
+- The company logo and other companies were used with permission and image on about-us section was also provided by the company. 
 
 
 
