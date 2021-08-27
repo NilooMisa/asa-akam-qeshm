@@ -4,7 +4,7 @@
 Asa akam company's website would provide services and information to the people who are interested in importing and/or purchasing dyestuff and textile auxiliaries in Tehran, Iran. The website targets the costumers from all types of industries in purchasing imported dyes and textile auxiliaries. Asa Akam company's website would showcase its wide range of products and its partners from around the world.
 
 
-## Existing features
+## Features
 ***
  > ### Header 
     >> * The full responsive header which has the nav bar inside it, It consists both fonts of website and the plain white color would compliment the website.
@@ -23,5 +23,10 @@ Asa akam company's website would provide services and information to the people 
 >> * This section showcases the company's real partners in importing dyestuff and textile auxiliaries and links which open in a new tab.
 >> * This section would be updated in the name or the number of the current partners change.
 >> * The design of the companies would change in responsive design for small devices and each company section would take the full-width of the viewport.
+> ### Table section
+>>* This section showcases the range of the products in two seperate charts including *dyestuff* and *textile auxiliaries*.
+>>* The tables are responsive in all platforms and the style is consistant with the page.
+
+
 
    
