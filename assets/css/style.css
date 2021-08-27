@@ -204,6 +204,7 @@ hr{
     width:100%;
     height:55%;
     background-color: #FDB866;
+    overflow-x: auto;
 
 }
 .product-table{
