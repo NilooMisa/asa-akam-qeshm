@@ -22,11 +22,13 @@ h1, h2, h3, th, .form-label, input[type=submit]{
 #logo-img{
     width: 11%;
     float:left;
+    padding-top: 2px;
     
 }
 #logo-box a{
     text-decoration: none;
 }
+
 #logo-box p{
     font-family: 'Bebas Neue', sans-serif;
     color:#3a3a3a;
@@ -35,6 +37,7 @@ h1, h2, h3, th, .form-label, input[type=submit]{
 }
 #logo{
      font-size: 240%;
+     padding-top: 2px;
 
 }
 #logo-box a:hover{
