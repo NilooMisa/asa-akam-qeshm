@@ -9,91 +9,78 @@ body {
     font-family:Roboto, 'Bebas Neue', sans-serif;
 }
 /* headings and logo */
-header{
-    width:100%;
-    height:150px;
+header {
+    width: 100%;
+    height: 150px;
 }
-h1, h2, h3, th, .form-label, input[type=submit]{
+h1 , h2 , h3 , th , .form-label , input[type=submit] {
     font-family: 'Bebas Neue', sans-serif;
-    color:#3a3a3a;
+    color: #3a3a3a;
     letter-spacing: 2px;
-
 }
-#logo-img{
+#logo-img {
     width: 11%;
-    float:left;
-    padding-top: 2px;
-    
+    float: left;
+    padding-top: 2px;  
 }
-#logo-box a{
+#logo-box a {
     text-decoration: none;
 }
-
-#logo-box p{
+#logo-box p {
     font-family: 'Bebas Neue', sans-serif;
-    color:#3a3a3a;
+    color: #3a3a3a;
     padding-bottom: 2%;
     padding-left: 11%;
 }
-#logo{
+#logo {
      font-size: 240%;
      padding-top: 2px;
-
 }
-#logo-box a:hover{
+#logo-box a:hover {
     cursor: pointer;
 }
 /* navigation bar */
-#menu{
-    width:100%;
+#menu {
+    width: 100%;
     text-align: center;
     height: 50px;
 }
-
 #menu  li {
     color: #3a3a3a;
     list-style-type: none;
     margin-right: 2%;
     font-size: 150%;
-    display: inline-block; 
-    
+    display: inline-block;    
 }
-
-#menu li a:hover{
+#menu li a:hover {
     cursor: pointer;
     border-bottom: 1px solid #3a3a3a;
-    color:#ec4a0f;
+    color: #ec4a0f;
 }
-
-#menu li a{
+#menu li a {
     text-decoration: none;
-    color:#3a3a3a;
+    color: #3a3a3a;
     line-height: 50px;
 }
-
 /* section for background-image */
-#image-style{
-    width:100%;
-    height:600px;
+#image-style {
+    width: 100%;
+    height: 600px;
     overflow: hidden;
 }
-
-
-#hero-image{
+#hero-image {
     background: url('../images/lucas-benjamin-GAM-7l4QzmI-unsplash\ \(1\).jpg') no-repeat center center;
     position: relative;
-    background-color:#FDB866;
-    width:100%;
-    height:600px;
+    background-color: #FDB866;
+    width: 100%;
+    height: 600px;
     /* animation zoom effect when loading */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    
-
 }
 /* create animation for background-image */
-@keyframes hero-zoom{
+@keyframes hero-zoom {
     from{
         transform: scale(1);
     }
@@ -102,132 +89,116 @@ h1, h2, h3, th, .form-label, input[type=submit]{
     }
 }
 /* center the heading with help of W3S */
-#heading-center{
-    width:70%;
+#heading-center {
+    width: 70%;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#heading-center h2{
+#heading-center h2 {
     color: #f5f5f5;
     text-align: center;
     font-size: 170%;
     letter-spacing: 2px;
 }
-
-
 /* about-us section */
 .background-rules {
-    
-    width:100%;
-    height:600px;
-
-    
+    width: 100%;
+    height: 600px; 
 }
-
-#company-details{
-    width:60%;
+#company-details {
+    width: 60%;
     margin-top: 5%;
-    margin-left:1%;
+    margin-left: 1%;
     float: left;
 }
-#company-details h2{
+#company-details h2 {
     text-align: center;
-    color:#3a3a3a;    
+    color: #3a3a3a;    
 }
- #company-details p{
+ #company-details p {
     font-size: 120%;
     letter-spacing: 1px;
     text-align: center;
     font-family: Roboto, sans-serif;
     color: #3a3a3a;   
 }
-#company-details p ~ h2{
+#company-details p ~ h2 {
     padding-top: 25px;
 }
 /* about-us image */
-#about-us img{
-    float:right;
-    border-radius:5%;
-    width:35%;
+#about-us img {
+    float: right;
+    border-radius: 5%;
+    width: 35%;
     margin-right: 1%;
-    margin-top:8%;
+    margin-top: 8%;
 }
-hr{
-    border-bottom: 1px solid #3a3a3a;
-}
-/* figures for company logos */
 
+/* figures for company logos */
 #logo-container {
-    width:100%;
-    height:45%;
+    width:1 00%;
+    height: 45%;
     font-family: 'Bebas Neue', sans-serif;
 }
-#logo-container h1{
+#logo-container h1 {
     text-align: center;
     background-color: #FDB866;
 }
-.companies{
+.companies {
     float: left;
-    width:20%;
-    height:inherit;
+    width: 20%;
+    height: inherit;
     padding-top: 2%; 
-    
 }
-.rep-company-details{
+.rep-company-details {
     width: 100%;
-    height:100%;
+    height: 100%;
     text-align: center;
 }
-.rep-company-details h2{
+.rep-company-details h2 {
     padding-top: 3%;
 }
-.rep-company-details p{
+.rep-company-details p {
     padding-top: 2%;
 }
-.rep-company-details img{
-    width:70px;
-    height:70px;
+.rep-company-details img {
+    width: 70px;
+    height: 70px;
 }
 .rep-company-details a {
     text-decoration: none;
     color: #3a3a3a;
 }
-.rep-company-details a:hover{
+.rep-company-details a:hover {
     cursor: pointer;
     color: #ec4a0f;
 }
-
-
 /* tables for products */
-
-#table-container{
-    width:100%;
-    height:55%;
+#table-container {
+    width: 100%;
+    height: 55%;
     background-color: #FDB866;
     overflow-x: auto;
-
 }
-.product-table{
+.product-table {
     width: 70%;
     border-collapse: collapse;
-    margin:0px auto;
-
+    margin: 0 auto;
 }
 th {
     font-size: 150%;
     text-align: left;
-
 }
-td{
+td {
     color: #3a3a3a;
     font-size: 110%;
     border: 1px solid #3a3a3a;
     text-align: center;
 }
-.product-table caption{
+.product-table caption {
     color: #3a3a3a;
     font-size: 100%;
     padding-top: 1%;
@@ -235,12 +206,12 @@ td{
 }
 
 /* form */
-#form-center{
+#form-center {
     position: relative;
 }
-#form-container{
-    width:40%;
-    height:60%;
+#form-container {
+    width: 40%;
+    height: 60%;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -258,31 +229,31 @@ td{
 }
 .form-label{
     font-size: 120%;
-    color:#3a3a3a;
+    color: #3a3a3a;
     font-weight: 300;
     text-align: center;
 }
-.form-box{
+.form-box {
     text-align: center;
     margin-top: 1%;
 }
 /* style of the input elements of form */
-input[type=text]{
+input[type=text] {
     width: 30%;
     height: 40px;
     
 }
-input[type=email]{
-    width:40%;
+input[type=email] {
+    width: 40%;
     height: 40px;
     
 }
-input[type=submit]{
+input[type=submit] {
     background-color: #3a3a3a;
-    color:#f5f5f5;
-    border:1px solid #f5f5f5;
+    color: #f5f5f5;
+    border: 1px solid #f5f5f5;
     width: 25%;
-    height:50px ;
+    height: 50px;
     font-weight: 300;
     font-size: 120%;
 }
@@ -291,54 +262,53 @@ input[type=submit]:hover{
     cursor: pointer;
 }
 /*  footer  */
-footer{
-    background-color:#3a3a3a;
+footer {
+    background-color: #3a3a3a;
     width: 100%;
     height: auto;
 }
-footer ul{
-    list-style-type:none ;
+footer ul {
+    list-style-type: none;
 }
-footer h2, footer li{
+footer h2 , footer li {
 
     
     letter-spacing: 2px;
     font-weight: 300;
 }
-footer li{
+footer li {
     color:#f5f5f5;
 }
-.office-address{
-    width:30%;
+.office-address {
+    width: 30%;
     float: left;
-    margin-left:3%;
+    margin-left: 3%;
     margin-top: 2%;   
 }
 /* social media and mail links box */
-#social-media{
+#social-media {
     text-align: center;
 }
-#social-media ul{
+#social-media ul {
     list-style-type: none;
-
 }
-#social-media ul > li{
+#social-media ul > li {
     display: inline;
     margin-left: 3%;
 }
-#social-media a{
+#social-media a {
     text-decoration: none;
-    color:#f5f5f5;
+    color: #f5f5f5;
 }
-#social-media a:hover{
+#social-media a:hover {
     cursor: pointer;
-    color:#ec4a0f;
+    color: #ec4a0f;
 }
-#social-media h2, footer h2{
+#social-media h2 , footer h2 {
     text-transform: uppercase;
     color: #FDB866;
 }
-#social-media i{
+#social-media i {
     font-size: 160%;
 }
 /* copyright rules*/
@@ -346,7 +316,7 @@ footer div {
     clear: both;
     width: 100%;
 }
-footer div p{
+footer div p {
     color: #FDB866;
     padding-left: 3%;
     padding-top: 1%;
@@ -355,25 +325,23 @@ footer div p{
 /* media queries*/
 
 /* for devices with 768px and down viewports */
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px) {
     /* header */
     #logo-img{
-        width:17%;
+        width: 17%;
     }
     /* about-us section*/
-    #about-us{
-        width:100%;
-        height:1200px;
-    
+    #about-us {
+        width: 100%;
+        height: 1200px;
     }
     #company-details {
-        width:100%;
-        clear:both;
-        margin:0 ;
+        width: 100%;
+        clear: both;
+        margin: 0;
     }
-    #company-details p, #company-details h2{
-        padding-top: 3%;
-     
+    #company-details p , #company-details h2 {
+        padding-top: 3%; 
     }
     /* about us image*/
     #about-us img{
@@ -383,127 +351,113 @@ footer div p{
         margin-right: 0;
     }
     /* representatives section */
-    .rep-company-details h2{
-        font-size:95% ;
+    .rep-company-details h2 {
+        font-size: 95%;
     }
-    .rep-company-details p{
-        font-size:90% ;
+    .rep-company-details p {
+        font-size: 90%;
     }
-    .companies img{
+    .companies img {
         width: 50px;
         height: 50px;
     }
-    #logo-container{
+    #logo-container {
         height: 40%;
     }
-    #table-container{
+    #table-container {
         height: 60%;
     }
 }
  
 /* for devices with 600px and down viewports */
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px) {
    /* header */
-    header{
-        width:100%;
+    header {
+        width: 100%;
         height: 100px;
     }
-    #logo-image{
-        width:19%;
-    
+    #logo-image {
+        width: 19%;
     }
-    #logo{
+    #logo {
         font-size: 120%;
-   
-   }
-   #logo-box p{
-    font-size:80% ;
-}
-    #menu  li{
-        font-size: 110%;
-        
     }
-    
+   #logo-box p {
+    font-size: 80%;
+    }
+    #menu  li{
+        font-size: 110%;   
+    }
     /* about us section*/
-    #about-us{
-        width:100%;
-        height:1200px;
-    
+    #about-us {
+        width: 100%;
+        height: 1200px;
     }
     #company-details {
-        width:100%;
-        clear:both;
-        margin:0 ;
+        width: 100%;
+        clear: both;
+        margin: 0;
     }
-    #company-details p, #company-details h2{
+    #company-details p , #company-details h2 {
         padding-top: 2%;
-     
     }
     /* about us image*/
-    #about-us img{
-        border-radius:5%;
-        width:100%;
-        padding-top:20%;
-        clear:right;
+    #about-us img {
+        border-radius: 5%;
+        width: 100%;
+        padding-top: 20%;
+        clear: right;
         margin-right: 0;
     }
     /* representatives section */
-    #products{
-        width:100%;
-        height:1500px;
+    #products {
+        width: 100%;
+        height: 1500px;
     }
     #logo-container {
-        height:55%;
+        height: 55%;
     }
-    #first-company{
+    #first-company {
         padding-top: 1%;
     }
-    .companies img{
+    .companies img {
         width: 50px;
         height: 50px;
     }
-    .companies{
-        width:100%;
-        height:90px;
+    .companies {
+        width: 100%;
+        height: 90px;
         clear: left;
         padding-top: 10%;
-        /* padding: 0; */
     }
-    
-    
     /* table section*/
-    #table-container{
-        height:45%;
-      
+    #table-container {
+        height: 45%;
     }
-    
-    .product-table{
+    .product-table {
        margin: 0 auto;
     }
-    .product-table > caption{
-        padding-top:16%;
+    .product-table > caption {
+        padding-top: 16%;
     }
     /* form */
-    #form-center{
-        width:100%;
-        height:600px;
-        
+    #form-center {
+        width: 100%;
+        height: 600px; 
     }
-    #form-container{
-        width:90%;
-        height:400px;
-        margin:0;
+    #form-container {
+        width: 90%;
+        height: 400px;
+        margin: 0;
         padding: 0;
     }
-    input[type=submit]{
+    input[type=submit] {
         margin-top: 3%;
     }
     /* footer */
-    .office-address{
+    .office-address {
         clear: left;
-        width:90%;
-
-    }
-    
+        width: 90%;
+    }    
 }
 
