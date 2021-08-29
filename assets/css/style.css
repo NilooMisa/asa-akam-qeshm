@@ -142,9 +142,12 @@ main{
 }
 
 /* figures for company logos */
+.partners-section {
+    height: 70vh;
+}
 .partners-companies {
     width: 100vw;
-    height: 45%;
+    height: 35%;
     font-family: 'Bebas Neue', sans-serif;
 }
 .partners-section h1 {
@@ -181,7 +184,7 @@ main{
 /* tables for products */
 .table-container {
     width: 100%;
-    height: 55%;
+    height: 65%;
     background-color: #FDB866;
     overflow-x: auto;
 }
@@ -206,7 +209,6 @@ td {
     padding-top: 2%;
     font-family: 'Bebas Neue', sans-serif;
 }
-
 /* form */
 .form-center {
     /* style to center the form-line hight is equal to the div height*/
@@ -240,8 +242,7 @@ td {
 /* style of the input elements of form */
 input[type=text] {
     width: 30%;
-    height: 40px;
-    
+    height: 40px;   
 }
 input[type=email] {
     width: 40%;
@@ -452,8 +453,7 @@ footer li {
     .companies {
         width: 100%;
         height: 90px;
-        clear: left;
-        
+        clear: left;   
     }
     .company-padding{
         padding-top: 10%;
