@@ -9,12 +9,14 @@ body {
 }
 /* headings and logo */
 header {
-    width: 100vw; /* Full width */
+    width: 100vw; 
     height: 7vh;
     overflow: hidden;
     background-color: #ffffff;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    /* set the navbar to fixed position */
+    position: fixed; 
+    /* position the navbar at the top of the page */
+    top: 0; 
     border-bottom: 1vh solid #ec4a0f;
 }
 h1 , h2 , h3 , th , .form-label , input[type=submit] {
@@ -25,7 +27,7 @@ h1 , h2 , h3 , th , .form-label , input[type=submit] {
 .aa-logo {
     width: 7%;
     float: left;
-    /* padding-top: 1%;   */
+    /* for sticky nav bar */
     display: block;
 }
 .aa-logo-box a {
@@ -216,14 +218,13 @@ td {
     height: 80%;
     border-radius: 2%;
     background-color: #FDB866;
-    /* style to make the center the form*/
+    /* style to make the center the form */
     display: inline-block;
     vertical-align: middle;
     line-height: initial;
     text-align: left;
-    
 }
-.form-container textarea{
+.form-container textarea {
     max-width: 95%;
 }
 .form-label{
@@ -264,6 +265,7 @@ input[type=submit]:hover{
 footer {
     background-color: #3a3a3a;
     width: 100%;
+    /* auto background for responsiveness */
     height: auto;
 }
 footer ul {
