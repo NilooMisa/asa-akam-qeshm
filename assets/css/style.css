@@ -4,8 +4,7 @@
     padding: 0;
     border: none;
 }
-body {
-    
+body { 
     font-family:Roboto, 'Bebas Neue', sans-serif;
 }
 /* headings and logo */
@@ -55,12 +54,12 @@ h1 , h2 , h3 , th , .form-label , input[type=submit] {
     line-height: 50px;
 }
 /* section for background-image */
-#image-style {
+.hero-image-container {
     width: 100%;
     height: 600px;
     overflow: hidden;
 }
-#hero-image {
+.hero-image-rules {
     background: url('../images/lucas-benjamin-GAM-7l4QzmI-unsplash\ \(1\).jpg') no-repeat center center;
     position: relative;
     background-color: #FDB866;
@@ -130,12 +129,12 @@ h1 , h2 , h3 , th , .form-label , input[type=submit] {
 }
 
 /* figures for company logos */
-#logo-container {
-    width:1 00%;
+.partners-companies {
+    width: 100%;
     height: 45%;
     font-family: 'Bebas Neue', sans-serif;
 }
-#logo-container h1 {
+.partners-companies h1 {
     text-align: center;
     background-color: #FDB866;
 }
@@ -397,11 +396,11 @@ footer li {
         margin-right: 0;
     }
     /* representatives section */
-    #products {
+    .partners-section {
         width: 100%;
         height: 1500px;
     }
-    #logo-container {
+    .partners-companies {
         height: 55%;
     }
     #first-company {
