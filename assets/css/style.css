@@ -197,25 +197,24 @@ td {
 }
 
 /* form */
-#form-center {
-    position: relative;
+.form-center {
+
+   line-height: 70vh;
+   text-align: center; 
 }
-#form-container {
+.form-container {
     width: 40vw;
-    height: 60%;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 80%;
     border-radius: 2%;
     background-color: #FDB866;
+
+    display: inline-block;
+    vertical-align: middle;
+    line-height: initial;
+    text-align: left;
+    
 }
-#form-center h1{
-    text-align: center;
-    padding-top: 1%;
-}
-#form-container textarea{
+.form-container textarea{
     max-width: 95%;
 }
 .form-label{
@@ -247,6 +246,7 @@ input[type=submit] {
     height: 50px;
     font-weight: 300;
     font-size: 120%;
+    margin-bottom: 1vh;
 }
 input[type=submit]:hover{
     color:#ec4a0f;
@@ -413,7 +413,7 @@ footer li {
         padding-top: 10%;
     }
     /* table section*/
-    #table-container {
+    .table-container {
         height: 45%;
     }
     .product-table {
@@ -423,11 +423,11 @@ footer li {
         padding-top: 16%;
     }
     /* form */
-    #form-center {
+    .form-center {
         width: 100%;
         height: 70vh; 
     }
-    #form-container {
+    .form-container {
         width: 90%;
         height: 50vh;
         margin: 0;
