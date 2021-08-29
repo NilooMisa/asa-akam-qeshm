@@ -134,7 +134,7 @@ h1 , h2 , h3 , th , .form-label , input[type=submit] {
     height: 45%;
     font-family: 'Bebas Neue', sans-serif;
 }
-.partners-companies h1 {
+.partners-section h1 {
     text-align: center;
     background-color: #FDB866;
 }
@@ -149,12 +149,16 @@ h1 , h2 , h3 , th , .form-label , input[type=submit] {
     height: 100%;
     text-align: center;
 }
-.rep-company-details h2 {
+/* .rep-company-details h2 {
     padding-top: 3%;
-}
-.rep-company-details p {
+} */
+.rep-company-details h2 , .rep-company-details p {
+    font-family: 'Bebas Neue', sans-serif;
     padding-top: 2%;
 }
+/* .rep-company-details p {
+    
+} */
 .rep-company-details img {
     width: 70px;
     height: 70px;
@@ -284,7 +288,7 @@ footer li {
     list-style-type: none;
 }
 #social-media ul > li {
-    display: inline;
+    display: inline-block;
     margin-left: 3%;
 }
 #social-media a {
@@ -403,7 +407,7 @@ footer li {
     .partners-companies {
         height: 55%;
     }
-    #first-company {
+   .first-one {
         padding-top: 1%;
     }
     .companies img {
