@@ -11,6 +11,11 @@ body {
 header {
     width: 100vw; /* Full width */
     height: 7vh;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    border-bottom: 1vh solid #ec4a0f;
 }
 h1 , h2 , h3 , th , .form-label , input[type=submit] {
     font-family: 'Bebas Neue', sans-serif;
@@ -20,7 +25,8 @@ h1 , h2 , h3 , th , .form-label , input[type=submit] {
 .aa-logo {
     width: 7%;
     float: left;
-    padding-top: 1%;  
+    /* padding-top: 1%;   */
+    display: block;
 }
 .aa-logo-box a {
     text-decoration: none;
@@ -51,6 +57,9 @@ h1 , h2 , h3 , th , .form-label , input[type=submit] {
     text-decoration: none;
     color: #3a3a3a;
     line-height: 50px;
+}
+main{
+    margin-top: 7vh;
 }
 /* section for background-image */
 .hero-image-container {
@@ -99,7 +108,7 @@ h1 , h2 , h3 , th , .form-label , input[type=submit] {
 /* about-us section */
 .background-rules {
     width: 100vw;
-    height: 80vh; 
+    height: 90vh; 
 }
 .about-us-content {
     width: 60vw;
@@ -185,7 +194,7 @@ th {
 }
 td {
     color: #3a3a3a;
-    font-size: 110%;
+    font-size: 108%;
     border: 1px solid #3a3a3a;
     text-align: center;
 }
@@ -198,16 +207,16 @@ td {
 
 /* form */
 .form-center {
-
-   line-height: 70vh;
-   text-align: center; 
+    /* style to center the form-line hight is equal to the div height*/
+    line-height: 90vh;
+    text-align: center; 
 }
 .form-container {
     width: 40vw;
     height: 80%;
     border-radius: 2%;
     background-color: #FDB866;
-
+    /* style to make the center the form*/
     display: inline-block;
     vertical-align: middle;
     line-height: initial;
@@ -236,7 +245,6 @@ input[type=text] {
 input[type=email] {
     width: 40%;
     height: 40px;
-    
 }
 input[type=submit] {
     background-color: #3a3a3a;
@@ -322,7 +330,7 @@ footer li {
     /* about-us section*/
     .about-us-section {
         width: 100%;
-        height: 160vh;
+        height: 150vh;
     }
     .about-us-content {
         width: 100%;
@@ -338,8 +346,12 @@ footer li {
         width: 100%;
         clear: right;
         margin-right: 0;
+        margin-top: 2vh;
     }
     /* representatives section */
+    .partners-section {
+        height:90vh;
+    }
     .rep-company-details h2 {
         font-size: 95%;
     }
@@ -354,13 +366,23 @@ footer li {
         height: 50px;
     }
     .partners-companies {
-        height: 40%;
+        height: 35%;
     }
     .table-container {
-        height: 60%;
+        height: 65%;
+    }
+    /* form */
+    .form-center {
+        width: 100%;
+        height: 90vh; 
+    }
+    .form-container {
+        height: 60vh;
+        width:70%;
+        margin: 0;
+        padding: 0;
     }
 }
- 
 /* for devices with 600px and down viewports */
 @media only screen and (max-width:600px) {
    /* header */
@@ -370,7 +392,7 @@ footer li {
     /* about us section*/
     .about-us-section {
         width: 100vw;
-        height: 190vh;
+        height: 165vh;
     }
     .about-us-content {
         width: 100%;
@@ -384,7 +406,7 @@ footer li {
     .about-us-section img {
         border-radius: 5%;
         width: 100%;
-        padding-top: 20%;
+        padding-top: 5vh;
         clear: right;
         margin-right: 0;
     }
@@ -434,7 +456,7 @@ footer li {
         padding: 0;
     }
     input[type=submit] {
-        margin-top: 3%;
+        margin-top: 1vh;
     }
     /* footer */
     .office-address {
