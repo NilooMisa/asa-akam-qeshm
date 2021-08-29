@@ -322,35 +322,31 @@ footer li {
     padding-bottom: 1%;
 }
 /* media queries*/
-@media only screen and (max-height:800px) {
-
-}
-
-@media screen and (min-height:800px) and (max-height:1050px){
-    
+/* for devices like tablet on landscape */
+@media only screen and (max-height:850px){
+    /* about-us section */
     .about-us-section {
         height:60vh;
     }
-    
+    /* partners section */
     .partners-section {
         height: 60vh;
     }
-    
+    /* form section */
     .form-section , .form-center {
-        height:70vh;
-        
+        height:70vh;   
     }
     .form-center {
+        /* add new line-height to keep the form in the center */
         line-height: 70vh;
     }
     .form-container {
         line-height: initial;
-        height: 40vh;
-        
+        height: 40vh;   
     }
 }
 /* for devices with 768px and down viewports */
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:600px) {
     /* header */
     .aa-logo {
         width: 12%;
