@@ -157,7 +157,16 @@ All these future features would improve the UX of the website:
 >>* By clicking on the *About Us*, the user would be navigatet to this section.
 >>* The sticky menu bar would help the user further as it is on the page again.
 ![about-us-shot](docs/images/about-screenshot.png)
->>### Unfixed bugs
+>>* By clicking on products and also while scrolling down, the user could see the name of the partners and range of products.
+>>* Four out of five partners have direct links to their websites.
+![product-shot](docs/images/product-screenshot.png)
+>>* By clicking on contact and while scrolling down, the user could see the form which is provided and fill it out.
+>>* The form requiers email and name to be submitted.
+![contact-shot](docs/images/contact-screenshot.png) 
+>>* The user could also find the addresses and the links to social media at the footer.
+![contact+footer-shot](docs/images/contact+footer-screenshot.png)
+>* The logo always refreshes the page and takes you to the homepage.
+>### Unfixed bugs
 >>* Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive on portrait for small devices.
 >* The navigation bar fades over the hero image and reappears after that section, because both have overflow:hidden; property, I have searched and couldn't find a good solution for that while maintaining the structure of the page.
 
