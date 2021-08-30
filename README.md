@@ -103,6 +103,18 @@ All these future features would improve the UX of the website:
 * The range of products could be improved and updated as the number of the partners.
 * We could add other sections to the website like the catalogues and the certificates and company's presence in other exhibitions.
 * The form could have more validations and options for the user.
+## Typography and Color Scheme
+***
+### Fonts
+* The font used for headings: *Bebas Neue*
+* The font used for body : *Roboto*
+* The backup font for both: *sans-serif*
+### Color Scheme
+* Headings, texts, footer-background: #3a3a3a
+* Background, footer-heading and copyright: #FDB866
+* Navigation-bar, heading, background: #f5f5f5
+* Navigation-bar border and anchors on hover: #ec4a0f 
+
 ## Wireframes
 ***
 **Header**
