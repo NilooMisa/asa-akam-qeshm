@@ -150,7 +150,13 @@ All these future features would improve the UX of the website:
 >>**Accesibility**
 >>* Results for desktop
 >* Results for mobile
-
+>>## Test cases
+>>* The user could navigate through the website with the sticky menu bar and the logo would refresh the page.
+>>* The menu bar would fade while scrolling in the homepage and reappears on *About Us* section.
+![homepage-shot](docs/images/homepage-screenshot.png)
+>>* By clicking on the *About Us*, the user would be navigatet to this section.
+>>* The sticky menu bar would help the user further as it is on the page again.
+![about-us-shot](docs/images/about-screenshot.png)
 >>### Unfixed bugs
 >>* Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive on portrait for small devices.
 >* The navigation bar fades over the hero image and reappears after that section, because both have overflow:hidden; property, I have searched and couldn't find a good solution for that while maintaining the structure of the page.
