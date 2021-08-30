@@ -186,7 +186,9 @@ The website is responsive on these devices:
 * Pixel2
 * iphone SE/5/6/7/8-6/7/8 plus/X
 * Laptops/Desktop
-![responsive-shot](docs/images/)
+![responsive-shot](docs/images/responsive-screenshot.png)
+On tablet(ipad/ipad pro) devices, the landscape mode is responsive:
+![ipad-shot](docs/images/ipad-responsive.png)
 
 
 ## Deployment
