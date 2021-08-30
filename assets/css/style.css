@@ -33,7 +33,6 @@ h1 , h2 , h3 , th , .form-label , input[type=submit] {
 .aa-logo-box a {
     text-decoration: none;
 }
-
 .aa-logo-box a:hover {
     cursor: pointer;
 }
@@ -80,8 +79,7 @@ main{
     /* animation zoom effect when loading */
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
-    
+    animation-fill-mode: forwards;   
 }
 /* create animation for background-image */
 @keyframes hero-zoom {
@@ -416,7 +414,7 @@ footer li {
     }
     /* about us section*/
     .about-us-section {
-        width: 100vw;
+        width: 100%;
         height: 165vh;
     }
     .about-us-content {
