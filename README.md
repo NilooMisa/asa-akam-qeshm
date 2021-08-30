@@ -151,7 +151,9 @@ All these future features would improve the UX of the website:
 >>* Results for desktop
 >>* Results for mobile
 >>### Unfixed bugs
->* ----
+>>* Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive for small devices.
+>* The navigation bar fades over the hero image and reappears after that section, because both have overflow:hidden; property, I have searched and couldn't find a good solution for that while maintaining the structure of the page.
+
 ## Deployment
 ***
 The website was deployed to GitHub pages. Here are the steps:
@@ -165,8 +167,6 @@ Here is the link to the live site  https://niloomisa.github.io/asa-akam-qeshm/
 ## Credits
 ***
 ### Content
-- The icons were taken from [fontawesome](https://fontawesome.com/).
-- The codes for centering the paragraph on home page within the hero-image and form section were from [W3S](https://www.w3schools.com/howto/howto_css_center-vertical.asp).
 - The content was provided by the company.
 - Inspiration from Love Running project and Coding Club on [CI](https://codeinstitute.net) LMS.
 
