@@ -130,92 +130,86 @@ Therefore, I would go to the bottom of the page where this links are usually pla
  **Footer**
  ![footer](docs/wireframes/footer-wireframe.png)
 7. # Technology
-***
-## Languages used:
-> HTML5  
-> CSS3
-## Programs used:
-> ### Github: 
-*It was used to store the project codes after being pushed at gitpod.*
-> ### Gitpod: 
-*It was used to write the codes and pushed the code to github via terminal commit command.*  
-> ### Balsamiq: 
-*It was used to create the wireframes for the project.*
-> ### Fontawesome website: 
-*It was used for the icons on the website but not the main logo.*
-> ### Tinypng website: 
-*It was used to reduce the size of the images and icons used on the web page.*
-> ### Milanote app: 
-*It was used for better understanding and writing the main user stories at and then importing to the readme.md*
-## Testing
-***
-> **Validator Testing** 
->>* HTML: *no errors were found*[W3S-validator]()
->>* CSS: *no errors were found*[Jigsaw-validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniloomisa.github.io%2Fasa-akam-qeshm%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
->>* The colors of the content and background have been checked and the content is readable.
->>**Accesibility**
->>* Results for desktop
->* Results for mobile
->>## Test cases
->>* The user could navigate through the website with the sticky menu bar and the logo would refresh the page.
->>* The menu bar would fade while scrolling in the homepage and reappears on *About Us* section.
-![homepage-shot](docs/images/homepage-screenshot.png)
->>* By clicking on the *About Us*, the user would be navigatet to this section.
->>* The sticky menu bar would help the user further as it is on the page again.
->>* In responsive design for small devices the image would be palced under the paragraphs.
-![about-us-shot](docs/images/about-screenshot.png)
->>* By clicking on products and also while scrolling down, the user could see the name of the partners and range of products.
->>* Four out of five partners have direct links to their websites.
->>* In responsive design for small screens, each company would take 100% of the viewport width and appear vertically.
-![product-shot](docs/images/product-screenshot.png)
->>* By clicking on contact and while scrolling down, the user could see the form which is provided and fill it out.
->>* The form requiers email and name to be submitted.
-![contact-shot](docs/images/contact-screenshot.png) 
->>* The user could also find the addresses and the links to social media at the footer.
->>* In responsive design the addresses and social media links would appear vertically.
-![contact-footer-shot](docs/images/contact-footer-screenshots.png)
->* The logo always refreshes the page and takes you to the homepage.
-### Fixed Bugs
-* I have centered the heading in homepage and form without using position, instead using line-height and display.
-* Fixed the broken links on the website.
-### Unfixed bugs
-* Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive on portrait for small devices.
-* The navigation bar fades over the hero image and reappears after that section, because both have overflow:hidden; property, I have searched and couldn't find a good solution for that while maintaining the structure of the page.
-## Supported screens and browsers
-***
-### Browsers 
-The website was written and tested on Chrome browser.
-### Screens
-The website is responsive on these devices: 
-* Moto G4
-* Galaxy S5
-* Pixel2
-* iphone SE/5/6/7/8-6/7/8 plus/X
-* Laptops/Desktop
-![responsive-shot](docs/images/responsive-screenshot.png)
-On tablet(ipad/ipad pro) devices, the landscape mode is responsive:
-![ipad-shot](docs/images/ipad-responsive.png)
-
-
-## Deployment
-***
-The website was deployed to GitHub pages. Here are the steps:
-1. In the GitHub repository, navigate to the Settings tab
-2. Scroll down to *GitHub pages* section, select the Master Branch(main)
-3. Once the master branch has been saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-
-Here is the link to the live site  https://niloomisa.github.io/asa-akam-qeshm/
-
-## Credits
-***
-### Content
-- The content was provided by the company.
-- Inspiration from Love Running project and Coding Club on [CI](https://codeinstitute.net) LMS.
-
-### Media
-- The hero image was takes from [unsplash](https://unsplash.com/photos/GAM-7l4QzmI) and the credit goes to the photographer Lucas Benjamin.
-- The company logo and other companies were used with permission and image on about-us section was also provided by the company. 
+ ***
+ ## Languages used:
+ > HTML5  
+ > CSS3
+ ## Programs used:
+ > ### Github: 
+ *It was used to store the project codes after being pushed at gitpod.*
+ > ### Gitpod: 
+ *It was used to write the codes and pushed the code to github via terminal commit command.*  
+ > ### Balsamiq: 
+ *It was used to create the wireframes for the project.*
+ > ### Fontawesome website: 
+ *It was used for the icons on the website but not the main logo.*
+ > ### Tinypng website: 
+ *It was used to reduce the size of the images and icons used on the web page.*
+ > ### Milanote app: 
+ *It was used for better understanding and writing the main user stories at and then importing to the readme.md*
+8. # Testing
+ ***
+ >## Validator Testing 
+ >>* HTML: *no errors were found*[W3S-validator]()
+ >>* CSS: *no errors were found*[Jigsaw-validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniloomisa.github.io%2Fasa-akam-qeshm%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+ >>* The colors of the content and background have been checked and the content is readable.
+ >>**Accesibility**
+ >>* Results for desktop
+ >* Results for mobile
+ >>## Test cases
+ >>* The user could navigate through the website with the sticky menu bar and the logo would refresh the page.
+ >>* The menu bar would fade while scrolling in the homepage and reappears on *About Us* section.
+ ![homepage-shot](docs/images/homepage-screenshot.png)
+ >>* By clicking on the *About Us*, the user would be navigatet to this section.
+ >>* The sticky menu bar would help the user further as it is on the page again.
+ >>* In responsive design for small devices the image would be palced under the paragraphs.
+ ![about-us-shot](docs/images/about-screenshot.png)
+ >>* By clicking on products and also while scrolling down, the user could see the name of the partners and range of products.
+ >>* Four out of five partners have direct links to their websites.
+ >>* In responsive design for small screens, each company would take 100% of the viewport width and appear vertically.
+ ![product-shot](docs/images/product-screenshot.png)
+ >>* By clicking on contact and while scrolling down, the user could see the form which is provided and fill it out.
+ >>* The form requiers email and name to be submitted.
+ ![contact-shot](docs/images/contact-us-screenshot.png) 
+ >>* The user could also find the addresses and the links to social media at the footer.
+ >>* In responsive design the addresses and social media links would appear vertically.
+ ![contact-footer-shot](docs/images/contact-footer-screenshots.png)
+ >* The logo always refreshes the page and takes you to the homepage.
+ ## Fixed Bugs
+ * I have centered the heading in homepage and form without using position, instead using line-height and display.
+ * Fixed the broken links on the website.
+ ## Unfixed bugs
+ * Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive on portrait for small devices.
+ * The navigation bar fades over the hero image and reappears after that section, because both have overflow:hidden; property, I have searched and couldn't find a good solution for that while maintaining the structure of the page.
+ ## Supported screens and browsers
+ ***
+ ### Browsers 
+ The website was written and tested on Chrome browser.
+ ### Screens
+ The website is responsive on these devices: 
+ * Moto G4
+ * Galaxy S5
+ * Pixel2
+ * iphone SE/5/6/7/8-6/7/8 plus/X
+ * Laptops/Desktop
+ ![responsive-shot](docs/images/responsive-screenshot.png)
+ On tablet(ipad/ipad pro) devices, the landscape mode is responsive:
+ ![ipad-shot](docs/images/ipad-responsive.png)
+9. # Deployment
+ ***
+ The website was deployed to GitHub pages. Here are the steps:
+ 1. In the GitHub repository, navigate to the Settings tab
+ 2. Scroll down to *GitHub pages* section, select the Master Branch(main)
+ 3. Once the master branch has been saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+ Here is the link to the live site  https://niloomisa.github.io/asa-akam-qeshm/
+10. # Credits
+ ***
+ ## Content
+ - The content was provided by the company.
+ - Inspiration from Love Running project and Coding Club on [CI](https://codeinstitute.net) LMS.
+ ## Media
+ - The hero image was takes from [unsplash](https://unsplash.com/photos/GAM-7l4QzmI) and the credit goes to the photographer Lucas Benjamin.
+ - The company logo and other companies were used with permission and image on about-us section was salso provided by the company. 
 
 
 
