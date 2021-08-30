@@ -151,7 +151,7 @@ All these future features would improve the UX of the website:
 >>* Results for desktop
 >>* Results for mobile
 >>### Unfixed bugs
->>* Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive for small devices.
+>>* Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive on portrait for small devices.
 >* The navigation bar fades over the hero image and reappears after that section, because both have overflow:hidden; property, I have searched and couldn't find a good solution for that while maintaining the structure of the page.
 
 ## Deployment
