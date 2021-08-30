@@ -79,40 +79,31 @@ Therefore, I would go to the bottom of the page where this links are usually pla
 ## Features
 ***
   ### Header section
- * The full responsive header which has the nav bar inside it, It consists both fonts of website and the plain white color would compliment the website.
- * It showcases the company's logo, name and a small description of what company does. \
+ * A header which has the nav bar inside it, It consists both fonts of website and the plain white color would compliment the website.
+ * It showcases the company's logo. \
  **navigation bar**
- * This section would allow the user to navigate through different parts of the website, it highlights the information that you are going to get by visiting this website. It includes links to *About Us*, *Products* and *Contact* sections.
- * The elements would get style which underline and highlight them while hover.
-    ![header section image](assets/images/header-section.png)
+ * This section would allow the user to navigate through different parts of the website, it highlights the information that you are going to get by visiting this website. It includes links to *About Us*, *Products* and *Contact* sections and the logo would refresh the page.
+ 
  ### Landing hero image
- * A landing hero image with eye-catching color which is showcasing a heading which is vertically and horizontally centered.
- * The image and text have animation effect which is responsive in different platforms. 
- ![hero image section image](assets/images/hero-image-section.png)
+ * A landing hero image with eye-catching color which would showcase a heading which would be vertically and horizontally centered.
+ 
  ### About Us section
  * Showcases two sections consistant of information about the company(on the left) alongside an image(on the right).
- *  The text section would give the user more history about the company and assure them of the services which company provides. It also showcases the information about the lab of the company to give user a better information about what company does. The text includes *About our company*, *Our lab* and *Our services* sections. 
- * The text content would take full-width of viewport in responsive designs and the image would come at the end of the texts. 
- ![about us section image](assets/images/about-us-section.png)
+ *  The text section would give the user more history about the company and assure them of the services which company provides. It also showcases the lab option of the company to give user a better information about what company does. The text includes *About our company*, *Our lab* and *Our services* sections. 
+ 
  ### Partners section
  * This section showcases the company's real partners in importing dyestuff and textile auxiliaries and links which open in a new tab.
- * This section would be updated in the name or the number of the current partners change.
- * The design of the companies would change in responsive design for small devices and each company section would take the full-width of the viewport.
- ![partners section image](assets/images/partners-section.png)
+
  ### Table section
 * This section showcases the range of the products in two seperate charts including *dyestuff* and *textile auxiliaries*.
-* The tables are responsive in all platforms and the style is consistant with the page.
-* The content of the tables could be updated in the future while the table keeps its responsiveness.
-![tables section image](assets/images/tables-section.png)
+
 ### Contact Us section
 * The user could contact the company directly via the form which is placed within the page.
-* The form style matches the page and it's responsive for all platforms. The form needs full-name and email address to be sent.
-![contact us section image](assets/images/form-section.png)
+
 ### Footer section
-* This section contains the two addresses of the company, the company's email address, links to social media and direct email link to company. This option is provided as an additional way of communicating with the company.
-* The colors in styling are consistant with the website and copyright is also added at the end of footer.
-* In responsive design, addresses and email address would come on top of each other.
-![footer section image](assets/images/footer-section.png)
+* This section contains the two addresses of the company, the company's email address, links to social media. 
+* Copyright would be added at the end of footer.
+
 ## Testing
 ***
 > **Validator Testing** 
