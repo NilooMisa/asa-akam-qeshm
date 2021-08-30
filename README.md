@@ -105,6 +105,17 @@ Therefore, I would go to the bottom of the page where this links are usually pla
 * Copyright would be added at the end of footer.
 ## Wireframes
 **Header**
+![Navigation-bar](docs/wireframes/header-wireframe.png)
+**Landing image and heading**
+![Landing-image](docs/wireframes/hero-image-wireframe.png)
+**About Us**
+![About-us](docs/wireframes/about-us-wireframe.png)
+**Products**
+![Products](docs/wireframes/products-wireframe.png)
+**Contact**
+![Contact-us](docs/wireframes/contact-us-wireframe.png)
+**Footer**
+![Footer](docs/wireframes/footer-wireframe.png)
 
 ## Testing
 ***
