@@ -469,11 +469,11 @@ footer li {
     /* form */
     .form-center {
         width: 100%;
-        height: 60vh; 
+        height: 90vh; 
     }
     .form-container {
         width: 90%;
-        height: 53vh;
+        height: 60vh;
         margin: 0;
         padding: 0;
     }
