@@ -145,11 +145,12 @@ All these future features would improve the UX of the website:
 ***
 > **Validator Testing** 
 >>* HTML: *no errors were found*[W3S-validator]()
->>* CSS: *no errors were found*[Jigsaw-validator]()
+>>* CSS: *no errors were found*[Jigsaw-validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniloomisa.github.io%2Fasa-akam-qeshm%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 >>* The colors of the content and background have been checked and the content is readable.
->>**Lighthouse**
+>>**Accesibility**
 >>* Results for desktop
->>* Results for mobile
+>* Results for mobile
+
 >>### Unfixed bugs
 >>* Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive on portrait for small devices.
 >* The navigation bar fades over the hero image and reappears after that section, because both have overflow:hidden; property, I have searched and couldn't find a good solution for that while maintaining the structure of the page.
