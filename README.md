@@ -129,7 +129,18 @@ All these future features would improve the UX of the website:
 ![contact-us](docs/wireframes/contact-us-wireframe.png)
 **Footer**
 ![footer](docs/wireframes/footer-wireframe.png)
-
+## Technology
+***
+### Languages used:
+> HTML5  
+> CSS3
+### Programs used:
+> Github: *It was used to store the project codes after being pushed at gitpod.*
+> Gitpod: *It was used to write the codes and pushed the code to github via terminal commit command.*  
+> Balsamiq: *It was used to create the wireframes for the project.*
+> Fontawesome website: *It was used for the icons on the website but not the main logo.*
+> Tinypng website: *It was used to reduce the size of the images and icons used on the web page.*
+> Milanote app: *It was used for better understanding and writing the main user stories at and then importing to the readme.md*
 ## Testing
 ***
 > **Validator Testing** 
