@@ -1,10 +1,10 @@
 ![Asaakam logo](assets/images/en-logo.png)
-# Asa Akam Qeshm
+ # Asa Akam Qeshm
 ***
-1. # Purpose of the project
+ # Purpose of the project
 ***
 Asa akam company's website would provide services and information to the people who are interested in importing and/or purchasing dyestuff and textile auxiliaries in Tehran, Iran. The website targets the costumers from all types of industries in purchasing imported dyes and textile auxiliaries. Asa Akam company's website would showcase its wide range of products and its partners from around the world.
-2. # User Story
+ # User Story
 ***
 ## User Stories Backlog
 
@@ -77,7 +77,7 @@ As a  website user, I'd like to find the company on linked in, twitter or facebo
 **Acceptance Criteria**
 
 Therefore, I would go to the bottom of the page where this links are usually placed and click on them/ I would click on 'contact' in the menu bar and simply find them at the bottom of the page.
-3. # Features
+ # Features
 ***
   ## Header section
  * A header which has the nav bar inside it, It consists both fonts of website and the plain white color would compliment the website.
@@ -95,16 +95,17 @@ Therefore, I would go to the bottom of the page where this links are usually pla
  * This section showcases the range of the products in two seperate charts including *dyestuff* and *textile auxiliaries*.
  ## Contact Us section
  * The user could contact the company directly via the form which is placed within the page.
+ * The form would require email and name to be submitted.
  ## Footer section
  * This section contains the two addresses of the company, the company's email address, links to social media. 
  * Copyright would be added at the end of footer.
-4. # Future Features
+ # Future Features
  ***
  All these future features would improve the UX of the website:
  * The range of products could be improved and updated as the number of the partners.
  * We could add other sections to the website like the catalogues and the certificates and company's presence in other exhibitions.
  * The form could have more validations and options for the user.
-5. # Typography and Color Scheme
+ # Typography and Color Scheme
  ***
  ## Fonts
  * The font used for headings: *Bebas Neue*
@@ -115,7 +116,7 @@ Therefore, I would go to the bottom of the page where this links are usually pla
  * Background, footer-heading and copyright: #FDB866
  * Navigation-bar, heading, background: #f5f5f5
  * Navigation-bar border and anchors on hover: #ec4a0f 
-6. # Wireframes
+ # Wireframes
  ***
  **Header**
  ![navigation-bar](docs/wireframes/header-wireframe.png)
@@ -129,25 +130,27 @@ Therefore, I would go to the bottom of the page where this links are usually pla
  ![contact-us](docs/wireframes/contact-us-wireframe.png)
  **Footer**
  ![footer](docs/wireframes/footer-wireframe.png)
-7. # Technology
+ # Technology
  ***
  ## Languages used:
- > HTML5  
- > CSS3
+ > ### HTML5 
+ >*The language used to build the structure of the website.* 
+ > ### CSS3
+ >*The language used to style the website.*
  ## Programs used:
  > ### Github: 
- *It was used to store the project codes after being pushed at gitpod.*
+ >*It was used to store the project codes after being pushed at gitpod.*
  > ### Gitpod: 
- *It was used to write the codes and pushed the code to github via terminal commit command.*  
+ >*It was used to write the codes and pushed the code to github via terminal commit command.*  
  > ### Balsamiq: 
- *It was used to create the wireframes for the project.*
+ >*It was used to create the wireframes for the project.*
  > ### Fontawesome website: 
- *It was used for the icons on the website but not the main logo.*
+ >*It was used for the icons on the website but not the main logo.*
  > ### Tinypng website: 
- *It was used to reduce the size of the images and icons used on the web page.*
+ >*It was used to reduce the size of the images and icons used on the web page.*
  > ### Milanote app: 
- *It was used for better understanding and writing the main user stories at and then importing to the readme.md*
-8. # Testing
+ >*It was used for better understanding and writing the main user stories at and then importing to the readme.md*
+ # Testing
  ***
  >## Validator Testing 
  >>* HTML: *no errors were found*[W3S-validator]()
@@ -192,19 +195,28 @@ Therefore, I would go to the bottom of the page where this links are usually pla
  * Moto G4
  * Galaxy S5
  * Pixel2
+ * Surface Duo
  * iphone SE/5/6/7/8-6/7/8 plus/X
  * Laptops/Desktop
  ![responsive-shot](docs/images/responsive-screenshot.png)
  On tablet(ipad/ipad pro) devices, the landscape mode is responsive:
  ![ipad-shot](docs/images/ipad-responsive.png)
-9. # Deployment
+ # Deployment
  ***
+ ## Gitpod
+ The Gitpod repository was created in Github. Here are the steps:
+ 1. Log into your github account
+ 2. Click on green screen icon next to repository
+ 3. Choose the code institute template, name the repository and add a description for your project
+ 4. Then click *create repository*   
+
+ ## Github
  The website was deployed to GitHub pages. Here are the steps:
  1. In the GitHub repository, navigate to the Settings tab
  2. Scroll down to *GitHub pages* section, select the Master Branch(main)
- 3. Once the master branch has been saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+ 3. Once the master branch has been saved, the page will be automatically refreshed with a checked green icon display to indicate the successful deployment.
  Here is the link to the live site  https://niloomisa.github.io/asa-akam-qeshm/
-10. # Credits
+ # Credits
  ***
  ## Content
  - The content was provided by the company.
