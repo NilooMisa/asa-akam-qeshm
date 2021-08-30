@@ -83,39 +83,40 @@ Therefore, I would go to the bottom of the page where this links are usually pla
  * It showcases the company's logo. \
  **navigation bar**
  * This section would allow the user to navigate through different parts of the website, it highlights the information that you are going to get by visiting this website. It includes links to *About Us*, *Products* and *Contact* sections and the logo would refresh the page.
- 
  ### Landing hero image
  * A landing hero image with eye-catching color which would showcase a heading which would be vertically and horizontally centered.
- 
  ### About Us section
  * Showcases two sections consistant of information about the company(on the left) alongside an image(on the right).
  *  The text section would give the user more history about the company and assure them of the services which company provides. It also showcases the lab option of the company to give user a better information about what company does. The text includes *About our company*, *Our lab* and *Our services* sections. 
- 
  ### Partners section
  * This section showcases the company's real partners in importing dyestuff and textile auxiliaries and links which open in a new tab.
-
  ### Table section
 * This section showcases the range of the products in two seperate charts including *dyestuff* and *textile auxiliaries*.
-
 ### Contact Us section
 * The user could contact the company directly via the form which is placed within the page.
-
 ### Footer section
 * This section contains the two addresses of the company, the company's email address, links to social media. 
 * Copyright would be added at the end of footer.
+## Future Features
+***
+All these future features would improve the UX of the website:
+* The range of products could be improved and updated as the number of the partners.
+* We could add other sections to the website like the catalogues and the certificates and company's presence in other exhibitions.
+* The form could have more validations and options for the user.
 ## Wireframes
+***
 **Header**
-![Navigation-bar](docs/wireframes/header-wireframe.png)
+![navigation-bar](docs/wireframes/header-wireframe.png)
 **Landing image and heading**
-![Landing-image](docs/wireframes/hero-image-wireframe.png)
-**About Us**
-![About-us](docs/wireframes/about-us-wireframe.png)
+![landing-image](docs/wireframes/hero-image-wireframe.png)
+**About us**
+![about-us](docs/wireframes/about-us-wireframe.png)
 **Products**
-![Products](docs/wireframes/products-wireframe.png)
+![products](docs/wireframes/products-wireframe.png)
 **Contact**
-![Contact-us](docs/wireframes/contact-us-wireframe.png)
+![contact-us](docs/wireframes/contact-us-wireframe.png)
 **Footer**
-![Footer](docs/wireframes/footer-wireframe.png)
+![footer](docs/wireframes/footer-wireframe.png)
 
 ## Testing
 ***
