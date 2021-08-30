@@ -170,7 +170,8 @@ All these future features would improve the UX of the website:
 ![contact-footer-shot](docs/images/contact-footer-screenshots.png)
 >* The logo always refreshes the page and takes you to the homepage.
 ### Fixed Bugs
-* I have fixed the position
+* I have fixed centered the heading in homepage and form without using position, instead using line-height and display.
+* Fixed the broken links on the website.
 ### Unfixed bugs
 * Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive on portrait for small devices.
 * The navigation bar fades over the hero image and reappears after that section, because both have overflow:hidden; property, I have searched and couldn't find a good solution for that while maintaining the structure of the page.
