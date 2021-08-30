@@ -155,7 +155,9 @@ Therefore, I would go to the bottom of the page where this links are usually pla
  >>* The colors of the content and background have been checked and the content is readable.
  >>**Accesibility**
  >>* Results for desktop
+ ![Lighthouse-desktop](docs/images/desktop-lh.png)
  >* Results for mobile
+ ![Lighthouse-mobile](docs/images/mobile-lh.png)
  >>## Test cases
  >>* The user could navigate through the website with the sticky menu bar and the logo would refresh the page.
  >>* The menu bar would fade while scrolling in the homepage and reappears on *About Us* section.
@@ -179,7 +181,7 @@ Therefore, I would go to the bottom of the page where this links are usually pla
  * I have centered the heading in homepage and form without using position, instead using line-height and display.
  * Fixed the broken links on the website.
  ## Unfixed bugs
- * Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive on portrait for small devices.
+ * Because of using vh value, the website is more responsive in landscape mode on ipad and such devices. However, it is responsive on portrait for small devices, just can't get rid of blank space because of the viewport height based value.
  * The navigation bar fades over the hero image and reappears after that section, because both have overflow:hidden; property, I have searched and couldn't find a good solution for that while maintaining the structure of the page.
  ## Supported screens and browsers
  ***
