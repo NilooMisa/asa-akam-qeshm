@@ -322,7 +322,7 @@ footer li {
 }
 /* media queries*/
 /* for devices like tablet on landscape */
-@media only screen and (min-height:850px){
+@media only screen and (min-height:850px) {
     /* about-us section */
     .about-us-section {
         height:60vh;
@@ -436,10 +436,10 @@ footer li {
     /* representatives section */
     .partners-section {
         width: 100%;
-        height: 200vh;
+        height: 215vh;
     }
     .partners-companies {
-        height: 55%;
+        height: 65%;
     }
    .first-one {
         padding: 0;
@@ -458,7 +458,7 @@ footer li {
     }
     /* table section*/
     .table-container {
-        height: 45%;
+        height: 40%;
     }
     .product-table {
        margin: 0 auto;
@@ -467,15 +467,22 @@ footer li {
         padding-top: 16%;
     }
     /* form */
+    .form-section {
+        width: 100%;
+        height: 90vh;
+    }
     .form-center {
         width: 100%;
-        height: 90vh; 
+       height:inherit;
+       padding-top: 1%;
+       line-height: 90vh;
     }
     .form-container {
         width: 90%;
-        height: 60vh;
+        height: 68%;
         margin: 0;
         padding: 0;
+        line-height: initial;
     }
     input[type=submit] {
         margin-top: 1vh;
