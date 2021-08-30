@@ -1,10 +1,11 @@
 ![Asaakam logo](assets/images/en-logo.png)
 # Asa Akam Qeshm
-
+***
+1. # Purpose of the project
+***
 Asa akam company's website would provide services and information to the people who are interested in importing and/or purchasing dyestuff and textile auxiliaries in Tehran, Iran. The website targets the costumers from all types of industries in purchasing imported dyes and textile auxiliaries. Asa Akam company's website would showcase its wide range of products and its partners from around the world.
-
-# User Story
-
+2. # User Story
+***
 ## User Stories Backlog
 
 ### Trustworthy company
@@ -76,71 +77,76 @@ As a  website user, I'd like to find the company on linked in, twitter or facebo
 **Acceptance Criteria**
 
 Therefore, I would go to the bottom of the page where this links are usually placed and click on them/ I would click on 'contact' in the menu bar and simply find them at the bottom of the page.
-## Features
+3. # Features
 ***
-  ### Header section
+  ## Header section
  * A header which has the nav bar inside it, It consists both fonts of website and the plain white color would compliment the website.
  * It showcases the company's logo. \
  **navigation bar**
  * This section would allow the user to navigate through different parts of the website, it highlights the information that you are going to get by visiting this website. It includes links to *About Us*, *Products* and *Contact* sections and the logo would refresh the page.
- ### Landing hero image
+ ## Landing hero image
  * A landing hero image with eye-catching color which would showcase a heading which would be vertically and horizontally centered.
- ### About Us section
+ ## About Us section
  * Showcases two sections consistant of information about the company(on the left) alongside an image(on the right).
  *  The text section would give the user more history about the company and assure them of the services which company provides. It also showcases the lab option of the company to give user a better information about what company does. The text includes *About our company*, *Our lab* and *Our services* sections. 
- ### Partners section
+ ## Partners section
  * This section showcases the company's real partners in importing dyestuff and textile auxiliaries and links which open in a new tab.
- ### Table section
-* This section showcases the range of the products in two seperate charts including *dyestuff* and *textile auxiliaries*.
-### Contact Us section
-* The user could contact the company directly via the form which is placed within the page.
-### Footer section
-* This section contains the two addresses of the company, the company's email address, links to social media. 
-* Copyright would be added at the end of footer.
-## Future Features
+ ## Table section
+ * This section showcases the range of the products in two seperate charts including *dyestuff* and *textile auxiliaries*.
+ ## Contact Us section
+ * The user could contact the company directly via the form which is placed within the page.
+ ## Footer section
+ * This section contains the two addresses of the company, the company's email address, links to social media. 
+ * Copyright would be added at the end of footer.
+4. # Future Features
+ ***
+ All these future features would improve the UX of the website:
+ * The range of products could be improved and updated as the number of the partners.
+ * We could add other sections to the website like the catalogues and the certificates and company's presence in other exhibitions.
+ * The form could have more validations and options for the user.
+5. # Typography and Color Scheme
+ ***
+ ## Fonts
+ * The font used for headings: *Bebas Neue*
+ * The font used for body : *Roboto*
+ * The backup font for both: *sans-serif*
+ ## Color Scheme
+ * Headings, texts, footer-background: #3a3a3a
+ * Background, footer-heading and copyright: #FDB866
+ * Navigation-bar, heading, background: #f5f5f5
+ * Navigation-bar border and anchors on hover: #ec4a0f 
+6. # Wireframes
+ ***
+ **Header**
+ ![navigation-bar](docs/wireframes/header-wireframe.png)
+ **Landing image and heading**
+ ![landing-image](docs/wireframes/hero-image-wireframe.png)
+ **About us**
+ ![about-us](docs/wireframes/about-us-wireframe.png)
+ **Products**
+ ![products](docs/wireframes/products-wireframe.png)
+ **Contact**
+ ![contact-us](docs/wireframes/contact-us-wireframe.png)
+ **Footer**
+ ![footer](docs/wireframes/footer-wireframe.png)
+7. # Technology
 ***
-All these future features would improve the UX of the website:
-* The range of products could be improved and updated as the number of the partners.
-* We could add other sections to the website like the catalogues and the certificates and company's presence in other exhibitions.
-* The form could have more validations and options for the user.
-## Typography and Color Scheme
-***
-### Fonts
-* The font used for headings: *Bebas Neue*
-* The font used for body : *Roboto*
-* The backup font for both: *sans-serif*
-### Color Scheme
-* Headings, texts, footer-background: #3a3a3a
-* Background, footer-heading and copyright: #FDB866
-* Navigation-bar, heading, background: #f5f5f5
-* Navigation-bar border and anchors on hover: #ec4a0f 
-
-## Wireframes
-***
-**Header**
-![navigation-bar](docs/wireframes/header-wireframe.png)
-**Landing image and heading**
-![landing-image](docs/wireframes/hero-image-wireframe.png)
-**About us**
-![about-us](docs/wireframes/about-us-wireframe.png)
-**Products**
-![products](docs/wireframes/products-wireframe.png)
-**Contact**
-![contact-us](docs/wireframes/contact-us-wireframe.png)
-**Footer**
-![footer](docs/wireframes/footer-wireframe.png)
-## Technology
-***
-### Languages used:
+## Languages used:
 > HTML5  
 > CSS3
-### Programs used:
-> Github: *It was used to store the project codes after being pushed at gitpod.*
-> Gitpod: *It was used to write the codes and pushed the code to github via terminal commit command.*  
-> Balsamiq: *It was used to create the wireframes for the project.*
-> Fontawesome website: *It was used for the icons on the website but not the main logo.*
-> Tinypng website: *It was used to reduce the size of the images and icons used on the web page.*
-> Milanote app: *It was used for better understanding and writing the main user stories at and then importing to the readme.md*
+## Programs used:
+> ### Github: 
+*It was used to store the project codes after being pushed at gitpod.*
+> ### Gitpod: 
+*It was used to write the codes and pushed the code to github via terminal commit command.*  
+> ### Balsamiq: 
+*It was used to create the wireframes for the project.*
+> ### Fontawesome website: 
+*It was used for the icons on the website but not the main logo.*
+> ### Tinypng website: 
+*It was used to reduce the size of the images and icons used on the web page.*
+> ### Milanote app: 
+*It was used for better understanding and writing the main user stories at and then importing to the readme.md*
 ## Testing
 ***
 > **Validator Testing** 
