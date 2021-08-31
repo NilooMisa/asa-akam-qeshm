@@ -153,7 +153,7 @@ Therefore, I would go to the bottom of the page where this links are usually pla
  # Testing
  ***
  >## Validator Testing 
- >>* HTML: *no errors were found*[W3S-validator]()
+ >>* HTML: *no errors were found*[W3S-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniloomisa.github.io%2Fasa-akam-qeshm%2F)
  >>* CSS: *no errors were found*[Jigsaw-validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniloomisa.github.io%2Fasa-akam-qeshm%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
  >>* The colors of the content and background have been checked and the content is readable.
  >>**Accesibility**
